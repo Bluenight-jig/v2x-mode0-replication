@@ -1,0 +1,5 @@
+<edges>
+  <edge id="e0" from="n0" to="n1" numLanes="2" speed="33.33" spreadType="center"/>
+  <!-- numLanes=2: 2 lanes per direction  -->
+  <!-- speed=33.33: 120 km/h limit        -->
+</edges>

@@ -1,0 +1,26 @@
+# Mode 0 V2X reproducibility package - Python dependencies
+# Tested on Ubuntu 22.04 LTS + CUDA 12.4 + NVIDIA RTX 3080 Laptop GPU
+# For other CUDA versions, see https://pytorch.org/get-started/locally/
+
+# PyTorch with CUDA 12.4 support
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+
+# Core scientific computing
+numpy==2.2.6
+
+# MARL environment interface
+gymnasium==1.2.3
+
+# SUMO Python bindings (must match installed SUMO binary version)
+sumolib==1.26.0
+traci==1.26.0
+
+# Inter-process bridge (Python <-> C++ channel simulator)
+pyzmq==27.1.0
+
+# Training observability
+tensorboard==2.20.0
+
+# Figure regeneration
+matplotlib==3.10.8

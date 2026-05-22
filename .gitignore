@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+logs/
+results/_*.json
+results/*.tmp
+*.log
+
+# TensorBoard event files (regenerated on each run)
+events.out.tfevents.*
+
+# Compiled C++ bridge (built by user via `make`)
+ns3_bridge/v2x_bridge
+
+# SUMO temp files
+*.tmp
+*.bak
+
+# Backup files
+*.backup
+*.pre_normalize_backup

@@ -1,0 +1,12 @@
+<configuration>
+  <input>
+    <net-file    value="highway.net.xml"/>
+    <route-files value="highway.rou.xml"/>
+  </input>
+  <time>
+    <begin       value="0"/>
+    <end         value="3600"/>
+    <step-length value="0.1"/>
+    <!-- step-length=0.1s = 1 TTI (NR-V2X slot duration) -->
+  </time>
+</configuration>

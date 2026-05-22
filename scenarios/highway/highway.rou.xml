@@ -1,0 +1,14 @@
+<routes>
+  <vType id="car" accel="2.6" decel="4.5" sigma="0.5"
+         length="5.0" maxSpeed="33.33" minGap="2.5"/>
+  <!-- accel=2.6: typical car. Trucks=1.0, sports=4.0            -->
+  <!-- sigma=0.5: driver imperfection. Higher=more realistic.     -->
+  <!-- minGap=2.5: minimum following gap [m]                      -->
+
+  <flow id="f0" type="car" from="e0" to="e0"
+        begin="0" end="3600" vehsPerHour="1200"
+        departLane="best" departSpeed="max"/>
+  <!-- vehsPerHour=1200: ~10 vehicles simultaneously on 3 km road -->
+  <!-- Increase to 2400 for ~20 vehicles; 3600 for ~30 vehicles   -->
+  <!-- For N>20 increase to match expected vehicle count           -->
+</routes>

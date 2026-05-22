@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Mode 0 V2X --- Reproducibility Package"
+authors:
+  - family-names: "[Last]"
+    given-names: "[First]"
+    # orcid: https://orcid.org/[ORCID]
+type: software
+license: MIT
+repository-code: "https://github.com/[github-username]/v2x-mode0-replication"
+url: "https://doi.org/[Zenodo DOI]"
+version: "1.0.0"
+date-released: "[YYYY-MM-DD]"
+keywords:
+  - V2X
+  - vehicle-to-everything
+  - resource scheduling
+  - multi-agent reinforcement learning
+  - MAPPO
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "[Paper title]"
+  authors:
+    - family-names: "[Last]"
+      given-names: "[First]"
+  journal: "IEEE Transactions on Intelligent Transportation Systems"
+  year: [year]
+  doi: "[DOI]"
