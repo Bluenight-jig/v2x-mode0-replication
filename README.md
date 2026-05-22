@@ -5,9 +5,9 @@
 
 Code, simulation environment, and empirical results for:
 
-> **[Paper title]**
-> [First] [Last]
-> *IEEE Transactions on Intelligent Transportation Systems*, [year]
+> **Mode 0: A New 3GPP V2X Resource Allocation Category for Roadside Computing Unit-Assisted Safety Communication**
+> Dewei Jiang
+> *IEEE Transactions on Intelligent Transportation Systems*, 2026
 
 This repository enables full reproduction of the fifteen-run MAPPO simulation
 programme reported in Section 6 of the paper, spanning Phase A (Mode 0a
@@ -168,11 +168,11 @@ computed analytically as `1 - ((M-1)/M)^(m0_count-1)`.
 If you use this code or data, please cite the paper:
 
 ```bibtex
-@article{[bibkey],
-  title   = {[Paper title]},
-  author  = {[Last], [First]},
+@article{Jiang2026mode0,
+  title   = {Mode 0: A New 3GPP V2X Resource Allocation Category for Roadside Computing Unit-Assisted Safety Communication},
+  author  = {Jiang, Dewei},
   journal = {IEEE Transactions on Intelligent Transportation Systems},
-  year    = {[year]},
+  year    = {2026},
   doi     = {[DOI]}
 }
 ```
@@ -180,10 +180,10 @@ If you use this code or data, please cite the paper:
 and the Zenodo archive of this repository:
 
 ```bibtex
-@software{[bibkey]_repo,
+@software{Jiang2026mode0_repo,
   title     = {Mode 0 V2X --- Reproducibility Package},
-  author    = {[Last], [First]},
-  year      = {[year]},
+  author    = {Jiang, Dewei},
+  year      = {2026},
   publisher = {Zenodo},
   doi       = {[Zenodo DOI]}
 }
