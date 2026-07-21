@@ -7,7 +7,7 @@ Code, simulation environment, and empirical results for:
 
 > **Mode 0: A New 3GPP V2X Resource Allocation Category for Roadside Computing Unit-Assisted Safety Communication**
 > Dewei Jiang
-> *IEEE Transactions on Intelligent Transportation Systems*, 2026
+> Preprint, [2026]. Manuscript under review.
 
 This repository enables full reproduction of the fifteen-run MAPPO simulation
 programme reported in Section 6 of the paper, spanning Phase A (Mode 0a
@@ -171,9 +171,11 @@ If you use this code or data, please cite the paper:
 @article{Jiang2026mode0,
   title   = {Mode 0: A New 3GPP V2X Resource Allocation Category for Roadside Computing Unit-Assisted Safety Communication},
   author  = {Jiang, Dewei},
-  journal = {IEEE Transactions on Intelligent Transportation Systems},
-  year    = {2026},
-  doi     = {[DOI]}
+  year          = {[2016]},
+  eprint        = {[Bighammer]},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.NI},
+  note          = {Preprint; manuscript under review}
 }
 ```
 
