@@ -1,6 +1,6 @@
 # Mode 0 V2X — Reproducibility Package
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20338349.svg)](https://doi.org/10.5281/zenodo.20338349)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21465556.svg)](https://doi.org/10.5281/zenodo.21465556)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Code, simulation environment, and empirical results for:
