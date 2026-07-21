@@ -24,6 +24,6 @@ preferred-citation:
   authors:
     - family-names: "Jiang"
       given-names: "Dewei"
-  journal: "IEEE Transactions on Intelligent Transportation Systems"
+  # journal: TBD (manuscript under review)
   year: 2026
   doi: "[DOI]"
