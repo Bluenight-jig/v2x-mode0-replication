@@ -1,0 +1,50 @@
+[
+  {
+    "config": "SBSPS_rsrp80w40_N10_seed3",
+    "N": 10,
+    "M": 5,
+    "rho": 2.0,
+    "M_m0": null,
+    "m0_ratio": 0.5,
+    "m0_pdr_mean": 0.8986332504115998,
+    "m0_pdr_p05": 0.8222506242897362,
+    "m0_pdr_p05_intra": 0.6817439859509469,
+    "m1_pdr_mean": 0.9443908447334544,
+    "m0_sinr_mean": 17.570982622065582,
+    "m1_sinr_mean": 20.513462861396373,
+    "m0_collision_rate": 0.9667999999999999,
+    "m0_collision_rate_within_pool": 0.12125000000000002,
+    "m1_collision_rate_within_pool": 0.09207499999999999,
+    "train_m0_pdr_last100": null,
+    "train_m1_pdr_last100": null,
+    "actor_loss": null,
+    "actor_loss_m0": null,
+    "actor_loss_m1": null,
+    "critic_loss": null,
+    "entropy_m0": null,
+    "entropy_m1": null,
+    "n_episodes": 0,
+    "n_eval_episodes": 100,
+    "architecture": "sbsps_idealized",
+    "sbsps": {
+      "rule": "rsrp",
+      "th0_dbm": -80.0,
+      "K": 10,
+      "counter": [
+        5,
+        15
+      ],
+      "p_keep": 0.0,
+      "tx_dbm": 23.0,
+      "min_frac": 0.2,
+      "warmup": 40,
+      "co_channel_sep_m": 528.6037199959321,
+      "shuffled_sep_m": 384.70675741042425,
+      "reuse_ratio": 1.3740432415435622,
+      "stats": {
+        "reselected": 20510,
+        "threshold_raised": 12172
+      }
+    }
+  }
+]

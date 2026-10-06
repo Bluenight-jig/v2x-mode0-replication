@@ -1,0 +1,30 @@
+[
+  {
+    "config": "A_N10_seed1_5000ep_gaefix_g05_ent01_as",
+    "N": 10,
+    "M": 5,
+    "rho": 2.0,
+    "M_m0": null,
+    "m0_ratio": 0.5,
+    "m0_pdr_mean": 0.6176506461311946,
+    "m0_pdr_p05": 0.5952306702478672,
+    "m0_pdr_p05_intra": 0.22264372579008346,
+    "m1_pdr_mean": 0.6887122361957738,
+    "m0_sinr_mean": 5.024645473894944,
+    "m1_sinr_mean": 8.693099495956998,
+    "m0_collision_rate": 0.8651599999999998,
+    "m0_collision_rate_within_pool": 0.5884,
+    "m1_collision_rate_within_pool": 0.5886799999999999,
+    "train_m0_pdr_last100": 0.6136732736486638,
+    "train_m1_pdr_last100": 0.6884274928421183,
+    "actor_loss": -0.0016277618706226349,
+    "actor_loss_m0": -0.04689658805727959,
+    "actor_loss_m1": 0.04364106431603432,
+    "critic_loss": 0.12717220187187195,
+    "entropy_m0": 1.6097464561462402,
+    "entropy_m1": 1.6105270385742188,
+    "n_episodes": 5000,
+    "n_eval_episodes": 100,
+    "architecture": "path_A5_per_class_actors_with_id"
+  }
+]

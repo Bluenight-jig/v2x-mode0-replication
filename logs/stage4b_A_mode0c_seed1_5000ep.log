@@ -1,0 +1,20 @@
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] A_mode0c_seed1_5000ep_gaefix_g05_ent01: N=4 M=5 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   3.4 s/episode   about 6 min left
+  episode  10/100   3.7 s/episode   about 5 min left
+  episode  20/100   3.7 s/episode   about 5 min left
+  episode  30/100   3.7 s/episode   about 4 min left
+  episode  40/100   3.7 s/episode   about 4 min left
+  episode  50/100   3.7 s/episode   about 3 min left
+  episode  60/100   3.7 s/episode   about 2 min left
+  episode  70/100   3.7 s/episode   about 2 min left
+  episode  80/100   3.7 s/episode   about 1 min left
+  episode  90/100   3.7 s/episode   about 1 min left
+  episode 100/100   3.7 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 6.1 min (3.7 s/episode)
+  validation vs the run's own evaluation: M0 0.9998 (logged 0.9997, delta +0.0000); WIRC 1.0000 (logged 1.0000, delta +0.0000)  -> OK
+  per-vehicle: worst vehicle 0.9996; 5th percentile 1.0000; share meeting 0.95 1.000
+  AoI (intervals): mean 1.000, 95th percentile 1.00, peak 1.1
+  saved results/stage4b/A_mode0c_seed1_5000ep_gaefix_g05_ent01.npz and results/stage4b/_A_mode0c_seed1_5000ep_gaefix_g05_ent01.json

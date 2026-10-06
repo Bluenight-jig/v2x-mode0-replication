@@ -1,0 +1,30 @@
+[
+  {
+    "config": "C_N4_delta06_seed1",
+    "N": 4,
+    "M": 5,
+    "rho": 0.8,
+    "M_m0": 2,
+    "m0_ratio": 0.5,
+    "m0_pdr_mean": 0.9992346486988904,
+    "m0_pdr_p05": 0.9955840511769056,
+    "m0_pdr_p05_intra": 1.0,
+    "m1_pdr_mean": 0.9932767085249163,
+    "m0_sinr_mean": 41.070145705795284,
+    "m1_sinr_mean": 45.155339872598645,
+    "m0_collision_rate": 0.0007500000000000001,
+    "m0_collision_rate_within_pool": 0.0007500000000000001,
+    "m1_collision_rate_within_pool": 0.010649999999999998,
+    "train_m0_pdr_last100": 0.9990482030969927,
+    "train_m1_pdr_last100": 0.993054779836142,
+    "actor_loss": -0.0016884803771972656,
+    "actor_loss_m0": -0.6874578595161438,
+    "actor_loss_m1": 0.6840808987617493,
+    "critic_loss": 0.23629102110862732,
+    "entropy_m0": 2.069911241531372,
+    "entropy_m1": 1.2284387350082397,
+    "n_episodes": 5000,
+    "n_eval_episodes": 100,
+    "architecture": "path_A5_per_class_actors_with_id"
+  }
+]

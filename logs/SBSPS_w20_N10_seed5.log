@@ -1,0 +1,25 @@
+[NS3Bridge] Connected tcp://localhost:6336
+[SB-SPS] SBSPS_rsrp80w20_N10_seed5  N=10 M=5 rule=rsrp th0=-80.0 DS=False seed=5 warmup=20
+Running 100 eval episodes (no training)...
+
+  Eval ep   0: M0_PDR=0.865  M1_PDR=0.944
+  Eval ep  20: M0_PDR=0.896  M1_PDR=0.955
+  Eval ep  40: M0_PDR=0.851  M1_PDR=0.940
+  Eval ep  60: M0_PDR=0.939  M1_PDR=0.968
+  Eval ep  80: M0_PDR=0.896  M1_PDR=0.932
+
+=== Eval Summary (100 episodes) - SB-SPS rsrp ===
+  M0_PDR_mean              : 0.8855
+  M0_PDR_p05 (across)      : 0.8351
+  M0_PDR_p05 (intra)       : 0.6421
+  M1_PDR_mean              : 0.9410
+  M0_SINR_mean (dB)        : 17.29
+  M1_SINR_mean (dB)        : 20.72
+  M0_collision_rate        : 0.955
+  M0_collision_within_pool : 0.163
+  M1_collision_within_pool : 0.127
+  co-channel separation    : 519.8 m vs shuffled 382.3 m  -> ratio 1.360
+  reselections 20532, threshold raised in 12099, occupancy fallback in 0
+
+Result saved -> results/_SBSPS_rsrp80w20_N10_seed5.json
+[NS3Bridge] Shutdown complete.

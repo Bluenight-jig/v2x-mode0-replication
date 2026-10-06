@@ -1,0 +1,9 @@
+{
+  "checkpoint": "checkpoints/A_mode0c_N10_seed3_actors.pt",
+  "learned_mean": 535.8537595724781,
+  "random_mean": 381.5820161900241,
+  "ratio": 1.404295110453078,
+  "n_pairs": 20323,
+  "m0m0_learned_events": 0,
+  "channels_used_mean": 5.0
+}

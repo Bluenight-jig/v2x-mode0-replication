@@ -1,0 +1,259 @@
+Stage 4a v2 -- 95% t-intervals (sample SD) across seeds; * = clipped at a bound; n = 2 cells as seed values.
+Requirement (safety class, PDR >= 0.95) judged on the interval: MEETS / SHORT / STRADDLES.
+
+  7-B   SB-SPS, N=4                          n=5
+          M0 PDR 0.9811 [0.9800, 0.9823] MEETS   WIRC 0.8573 [0.8465, 0.8681] SHORT
+          M1 PDR 0.9833 [0.9810, 0.9857]   M0 coll 0.0298 [0.0274, 0.0321]
+          M0 wp 0.0089 [0.0062, 0.0115]   M1 wp 0.0094 [0.0054, 0.0134]
+  7-B   Mode 0a, N=4, paper critic           n=5
+          M0 PDR 0.9999 [0.9998, 1.0000] MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 0.7977 [0.7949, 0.8005]   M0 coll 0.0005 [0.0001, 0.0008]
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.3338 [0.3298, 0.3378]
+          coordination time (episodes to sustained 0.90): M0 median 450 [350-650];  M1 never
+  7-B   Mode 0a, N=4, agent-specific         n=3
+          M0 PDR 1.0000 [0.9999, 1.0000]* MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 1.0000 [1.0000, 1.0000]*   M0 coll 0.0000 [0.0000, 0.0000]
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0000 [0.0000, 0.0000]
+          coordination time (episodes to sustained 0.90): M0 median 400 [200-500];  M1 median 250 [150-300]
+  7-B   Arm S, N=4                           n=3
+          M0 PDR 0.9997 [0.9992, 1.0000]* MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 0.9979 [0.9927, 1.0000]*   M0 coll 0.0004 [0.0000, 0.0011]*
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0032 [0.0000, 0.0110]*
+          coordination time (episodes to sustained 0.90): M0 median 200 [200-250];  M1 median 250 [250-250]
+  7-B   Mode 0c, N=4                         n=5
+          M0 PDR 0.9997 [0.9995, 0.9998] MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 0.9984 [0.9977, 0.9992]   M0 coll 0.0005 [0.0003, 0.0008]
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0014 [0.0004, 0.0023]
+          coordination time (episodes to sustained 0.90): M0 median 100 [100-100];  M1 median 150 [150-250]
+  7-B   SB-SPS, N=10                         n=5
+          M0 PDR 0.8967 [0.8900, 0.9034] SHORT   WIRC 0.6736 [0.6578, 0.6894] SHORT
+          M1 PDR 0.9437 [0.9418, 0.9455]   M0 coll 0.9625 [0.9579, 0.9671]
+          M0 wp 0.1262 [0.1094, 0.1429]   M1 wp 0.1009 [0.0918, 0.1101]
+  7-B   Mode 0a, N=10, paper critic          n=3
+          M0 PDR 0.6161 [0.6120, 0.6201] SHORT   WIRC 0.2208 [0.2084, 0.2331] SHORT
+          M1 PDR 0.6879 [0.6838, 0.6920]   M0 coll 0.8658 [0.8647, 0.8668]
+          M0 wp 0.5902 [0.5849, 0.5955]   M1 wp 0.5908 [0.5861, 0.5955]
+          coordination time (episodes to sustained 0.90): M0 never;  M1 never
+  7-B   Mode 0a, N=10, agent-specific        n=3
+          M0 PDR 0.6158 [0.6096, 0.6220] SHORT   WIRC 0.2170 [0.2017, 0.2324] SHORT
+          M1 PDR 0.6875 [0.6843, 0.6908]   M0 coll 0.8655 [0.8645, 0.8664]
+          M0 wp 0.5901 [0.5839, 0.5962]   M1 wp 0.5906 [0.5861, 0.5951]
+          coordination time (episodes to sustained 0.90): M0 never;  M1 never
+  7-B   Arm P, N=10                          n=3
+          M0 PDR 0.6149 [0.6126, 0.6172] SHORT   WIRC 0.2178 [0.2034, 0.2323] SHORT
+          M1 PDR 0.6864 [0.6854, 0.6874]   M0 coll 0.8654 [0.8641, 0.8666]
+          M0 wp 0.5916 [0.5904, 0.5927]   M1 wp 0.5915 [0.5881, 0.5949]
+          coordination time (episodes to sustained 0.90): M0 never;  M1 never
+  7-B   Arm S, N=10                          n=3
+          M0 PDR 0.9375 [0.9097, 0.9652] STRADDLES   WIRC 0.7844 [0.7568, 0.8120] SHORT
+          M1 PDR 0.9570 [0.9476, 0.9665]   M0 coll 0.9718 [0.9244, 1.0000]*
+          M0 wp 0.0004 [0.0000, 0.0017]*   M1 wp 0.0564 [0.0000, 0.1511]*
+          coordination time (episodes to sustained 0.90): M0 median 150 [150-200];  M1 median 1100 [1000-1450]
+  7-B   Mode 0c, N=10                        n=5
+          M0 PDR 0.9405 [0.9281, 0.9528] STRADDLES   WIRC 0.7921 [0.7815, 0.8027] SHORT
+          M1 PDR 0.9629 [0.9568, 0.9689]   M0 coll 0.9997 [0.9995, 0.9999]
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0006 [0.0002, 0.0010]
+          coordination time (episodes to sustained 0.90): M0 median 100 [50-100];  M1 median 350 [200-650]
+  T-1   Mode 0c, N=10, team critic           n=3
+          M0 PDR 0.9351 [0.9211, 0.9491] SHORT   WIRC 0.7876 [0.7672, 0.8080] SHORT
+          M1 PDR 0.9610 [0.9557, 0.9663]   M0 coll 0.9997 [0.9995, 0.9999]
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0006 [0.0002, 0.0010]
+          coordination time (episodes to sustained 0.90): M0 median 100 [50-100];  M1 median 350 [200-650]
+  T-1   Mode 0c, N=10, local critic          n=3
+          M0 PDR 0.9468 [0.9142, 0.9793] STRADDLES   WIRC 0.7946 [0.7735, 0.8158] SHORT
+          M1 PDR 0.9621 [0.9531, 0.9711]   M0 coll 1.0000 [1.0000, 1.0000]*
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0000 [0.0000, 0.0001]*
+          coordination time (episodes to sustained 0.90): M0 median 50 [50-100];  M1 median 50 [50-100]
+  T-1   Mode 0c, N=10, agent-specific        n=3
+          M0 PDR 0.9413 [0.9113, 0.9713] STRADDLES   WIRC 0.7903 [0.7592, 0.8214] SHORT
+          M1 PDR 0.9645 [0.9576, 0.9715]   M0 coll 0.9999 [0.9997, 1.0000]*
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0001 [0.0000, 0.0006]*
+          coordination time (episodes to sustained 0.90): M0 median 50 [50-450];  M1 median 100 [50-100]
+  T-1   Mode 0c, N=4, team critic            n=3
+          M0 PDR 0.9997 [0.9995, 0.9999] MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 0.9987 [0.9971, 1.0000]*   M0 coll 0.0004 [0.0000, 0.0009]*
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0013 [0.0000, 0.0031]*
+          coordination time (episodes to sustained 0.90): M0 median 100 [100-100];  M1 median 150 [150-250]
+  T-1   Mode 0c, N=4, local critic           n=3
+          M0 PDR 1.0000 [0.9999, 1.0000]* MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 0.9999 [0.9999, 0.9999]   M0 coll 0.0000 [0.0000, 0.0001]*
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0000 [0.0000, 0.0001]*
+          coordination time (episodes to sustained 0.90): M0 median 50 [50-100];  M1 median 50 [50-100]
+  T-1   Mode 0c, N=4, agent-specific         n=3
+          M0 PDR 1.0000 [0.9999, 1.0000]* MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 1.0000 [1.0000, 1.0000]*   M0 coll 0.0000 [0.0000, 0.0000]
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0000 [0.0000, 0.0000]
+          coordination time (episodes to sustained 0.90): M0 median 50 [50-100];  M1 median 100 [50-100]
+  T-1   Mode 0a, N=4, team critic            n=3
+          M0 PDR 0.9999 [0.9998, 1.0000]* MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 0.7962 [0.7932, 0.7992]   M0 coll 0.0005 [0.0000, 0.0013]*
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.3360 [0.3319, 0.3400]
+          coordination time (episodes to sustained 0.90): M0 median 400 [350-650];  M1 never
+  T-1   Mode 0a, N=4, local critic           n=3
+          M0 PDR 1.0000 [0.9999, 1.0000]* MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 1.0000 [0.9999, 1.0000]*   M0 coll 0.0000 [0.0000, 0.0000]
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0001 [0.0000, 0.0002]*
+          coordination time (episodes to sustained 0.90): M0 median 300 [250-1050];  M1 median 250 [200-450]
+  T-1   Mode 0a, N=4, agent-specific         n=3
+          M0 PDR 1.0000 [0.9999, 1.0000]* MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 1.0000 [1.0000, 1.0000]*   M0 coll 0.0000 [0.0000, 0.0000]
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0000 [0.0000, 0.0000]
+          coordination time (episodes to sustained 0.90): M0 median 400 [200-500];  M1 median 250 [150-300]
+  T-1   Mode 0c, N=10, delta=1.0             n=3
+          M0 PDR 0.9393 [0.9056, 0.9729] STRADDLES   WIRC 0.7864 [0.7368, 0.8359] SHORT
+          M1 PDR 0.9629 [0.9515, 0.9743]   M0 coll 1.0000 [0.9998, 1.0000]*
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0001 [0.0000, 0.0003]*
+          coordination time (episodes to sustained 0.90): M0 median 100 [50-100];  M1 median 50 [50-100]
+  7-C   M=7, shared pool                     n=3
+          M0 PDR 0.9732 [0.9502, 0.9963] MEETS   WIRC 0.8043 [0.7876, 0.8210] SHORT
+          M1 PDR 0.9800 [0.9708, 0.9892]   M0 coll 0.5998 [0.5992, 0.6005]
+          M0 wp 0.0000 [0.0000, 0.0000]*   M1 wp 0.0012 [0.0000, 0.0025]*
+          coordination time (episodes to sustained 0.90): M0 median 100 [100-100];  M1 median 250 [200-300]
+  7-C   M=7, partition (pool 5)              n=3
+          M0 PDR 1.0000 [0.9999, 1.0000]* MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 0.6811 [0.6673, 0.6948]   M0 coll 0.0000 [0.0000, 0.0000]
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.9992 [0.9987, 0.9998]
+          coordination time (episodes to sustained 0.90): M0 median 100 [100-100];  M1 never
+  7-C   N=10, partition (pool 2)             n=3
+          M0 PDR 0.4396 [0.4379, 0.4414] SHORT   WIRC 0.2008 [0.2004, 0.2012] SHORT
+          M1 PDR 0.8619 [0.8591, 0.8647]   M0 coll 1.0000 [0.9999, 1.0000]*
+          M0 wp 1.0000 [0.9999, 1.0000]*   M1 wp 0.7998 [0.7992, 0.8004]
+          coordination time (episodes to sustained 0.90): M0 never;  M1 never
+  7-C   N=10, partition (pool 4)             n=3
+          M0 PDR 0.8785 [0.8772, 0.8799] SHORT   WIRC 0.6533 [0.6452, 0.6614] SHORT
+          M1 PDR 0.0351 [0.0160, 0.0542]   M0 coll 0.4000 [0.4000, 0.4000]
+          M0 wp 0.4000 [0.4000, 0.4000]   M1 wp 1.0000 [1.0000, 1.0000]
+          coordination time (episodes to sustained 0.90): M0 never;  M1 never
+  7-C   N=4, partition (pool 2)              n=3
+          M0 PDR 0.9997 [0.9990, 1.0000]* MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 0.9968 [0.9918, 1.0000]*   M0 coll 0.0000 [0.0000, 0.0001]*
+          M0 wp 0.0000 [0.0000, 0.0001]*   M1 wp 0.0045 [0.0000, 0.0125]*
+          coordination time (episodes to sustained 0.90): M0 median 100 [50-100];  M1 median 150 [100-200]
+  7-C   Mode 0a + DS, N=10 (suppl.)          n=2
+          M0 PDR 0.2965 (seeds 0.2960, 0.2970) SHORT (by seed)   WIRC 0.0003 (seeds 0.0004, 0.0002) SHORT (by seed)
+          M1 PDR 0.5439 (seeds 0.5436, 0.5442)   M0 coll 0.9375 (seeds 0.9375, 0.9376)
+          M0 wp 0.9375 (seeds 0.9375, 0.9376)   M1 wp 0.8029 (seeds 0.8009, 0.8049)
+          coordination time (episodes to sustained 0.90): M0 never;  M1 never
+  7-C   Mode 0a + DS, N=4 (suppl.)           n=2
+          M0 PDR 0.9999 (seeds 0.9998, 0.9999) MEETS (by seed)   WIRC 1.0000 (seeds 1.0000, 1.0000) MEETS (by seed)
+          M1 PDR 0.7993 (seeds 0.7990, 0.7996)   M0 coll 0.0000 (seeds 0.0000, 0.0000)
+          M0 wp 0.0000 (seeds 0.0000, 0.0000)   M1 wp 0.3337 (seeds 0.3348, 0.3327)
+          coordination time (episodes to sustained 0.90): M0 median 400 [400-400];  M1 never
+  R1-b3 Mode 0b, N=10                        n=3
+          M0 PDR 0.9491 [0.9098, 0.9884] STRADDLES   WIRC 0.7988 [0.7957, 0.8019] SHORT
+          M1 PDR 0.8803 [0.6617, 1.0000]*   M0 coll 0.8555 [0.5506, 1.0000]*
+          M0 wp 0.0013 [0.0007, 0.0018]   M1 wp 0.2855 [0.0000, 0.8860]*
+          coordination time (episodes to sustained 0.90): M0 median 300 [250-350];  M1 median 1950 [1950-1950], never in 2 of 3
+          ⚠ m1_pdr_mean spans 0.7858-0.9598: a second mode or continuous spread? Check before quoting the mean
+  7-A   N=4, m0=2                            n=3
+          M0 PDR 1.0000 [0.9999, 1.0000]* MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 1.0000 [1.0000, 1.0000]*   M0 coll 0.0000 [0.0000, 0.0000]
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0000 [0.0000, 0.0000]
+          coordination time (episodes to sustained 0.90): M0 median 400 [200-500];  M1 median 250 [150-300]
+  7-A   N=5, m0=2                            n=3
+          M0 PDR 1.0000 [0.9998, 1.0000]* MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 0.9999 [0.9999, 1.0000]   M0 coll 0.0000 [0.0000, 0.0000]
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0000 [0.0000, 0.0001]*
+          coordination time (episodes to sustained 0.90): M0 median 250 [250-300];  M1 median 700 [650-800]
+  7-A   N=6, m0=3                            n=3
+          M0 PDR 0.9489 [0.9056, 0.9921] STRADDLES   WIRC 0.6867 [0.6009, 0.7725] SHORT
+          M1 PDR 0.7774 [0.1729, 1.0000]*   M0 coll 0.2459 [0.0000, 0.6036]*
+          M0 wp 0.0111 [0.0000, 0.0536]*   M1 wp 0.2410 [0.0000, 1.0000]*
+          coordination time (episodes to sustained 0.90): M0 median 3100 [2450-3900];  M1 median 3550 [3500-3600], never in 1 of 3
+          ⚠ m1_pdr_mean spans 0.4965-0.9243: a second mode or continuous spread? Check before quoting the mean
+  7-A   N=7, m0=3                            -- bimodal, split on m0_collision_rate_within_pool at 0.05: 2 separated, 1 not separated
+  7-A   N=7, m0=3: separated                 n=2
+          M0 PDR 0.9468 (seeds 0.9585, 0.9351) MIXED (by seed)   WIRC 0.6731 (seeds 0.6702, 0.6761) SHORT (by seed)
+          M1 PDR 0.9820 (seeds 0.9792, 0.9848)   M0 coll 0.6205 (seeds 0.6023, 0.6386)
+          M0 wp 0.0018 (seeds 0.0016, 0.0020)   M1 wp 0.0742 (seeds 0.1033, 0.0451)
+          coordination time (episodes to sustained 0.90): M0 median 1750 [1750-1750];  M1 median 2850 [2400-3300]
+  7-A   N=7, m0=3: not separated             n=1
+          M0 PDR 0.6538 (n=1) SHORT (by seed)   WIRC 0.0326 (n=1) SHORT (by seed)
+          M1 PDR 0.6840 (n=1)   M0 coll 0.7359 (n=1)
+          M0 wp 0.3581 (n=1)   M1 wp 0.4904 (n=1)
+          coordination time (episodes to sustained 0.90): M0 never;  M1 never
+  7-A   N=10, m0=5                           n=3
+          M0 PDR 0.6158 [0.6096, 0.6220] SHORT   WIRC 0.2170 [0.2017, 0.2324] SHORT
+          M1 PDR 0.6875 [0.6843, 0.6908]   M0 coll 0.8655 [0.8645, 0.8664]
+          M0 wp 0.5901 [0.5839, 0.5962]   M1 wp 0.5906 [0.5861, 0.5951]
+          coordination time (episodes to sustained 0.90): M0 never;  M1 never
+  7-A   N=15, m0=7                           n=3
+          M0 PDR 0.8339 [0.8260, 0.8417] SHORT   WIRC 0.5910 [0.5860, 0.5961] SHORT
+          M1 PDR 0.8933 [0.8847, 0.9020]   M0 coll 0.9985 [0.9983, 0.9988]
+          M0 wp 0.6308 [0.6004, 0.6613]   M1 wp 0.7606 [0.7470, 0.7741]
+          coordination time (episodes to sustained 0.90): M0 never;  M1 median 3700 [3700-3700], never in 2 of 3
+  7-A   N=20, m0=10                          n=3
+          M0 PDR 0.8169 [0.8137, 0.8201] SHORT   WIRC 0.6172 [0.6119, 0.6225] SHORT
+          M1 PDR 0.8929 [0.8912, 0.8947]   M0 coll 0.9997 [0.9995, 0.9999]
+          M0 wp 0.8828 [0.8636, 0.9020]   M1 wp 0.8725 [0.8409, 0.9041]
+          coordination time (episodes to sustained 0.90): M0 never;  M1 median 4500 [4500-4500], never in 2 of 3
+  7-A   N=4, M=3, m0=2                       n=3
+          M0 PDR 0.7564 [0.7530, 0.7599] SHORT   WIRC 0.5000 [0.5000, 0.5000] SHORT
+          M1 PDR 0.8600 [0.8538, 0.8663]   M0 coll 0.4999 [0.4998, 0.5000]
+          M0 wp 0.0000 [0.0000, 0.0001]*   M1 wp 0.0001 [0.0000, 0.0003]*
+          coordination time (episodes to sustained 0.90): M0 never;  M1 never
+  7-A   N=4, M=4, m0=2                       n=3
+          M0 PDR 1.0000 [1.0000, 1.0000]* MEETS   WIRC 1.0000 [1.0000, 1.0000] MEETS
+          M1 PDR 1.0000 [0.9998, 1.0000]*   M0 coll 0.0000 [0.0000, 0.0000]
+          M0 wp 0.0000 [0.0000, 0.0000]   M1 wp 0.0000 [0.0000, 0.0000]
+          coordination time (episodes to sustained 0.90): M0 median 200 [200-400];  M1 median 150 [150-200]
+
+  Stage 4b -- per vehicle, information age (generation intervals; >= 1) and spatial reuse
+  4b    Mode 0c, N=4                         n=5
+          worst vehicle 0.9994 [0.9991, 0.9997]   per-vehicle p05 0.9980 [0.9946, 1.0000]*
+          share meeting 0.95 1.0000 [1.0000, 1.0000]   AoI mean 1.0003 [1.0001, 1.0005]
+          AoI p95 1.0000 [1.0000, 1.0000]   AoI peak 1.1015 [1.0514, 1.1516]
+          AoI worst vehicle 1.0006 [1.0003, 1.0009]   reuse ratio n/a (F27: no sharing to measure, or the shuffle ignores a partition)
+  4b    SB-SPS, N=4                          n=5
+          worst vehicle 0.9679 [0.9664, 0.9694]   per-vehicle p05 0.9199 [0.9135, 0.9263]
+          share meeting 0.95 0.8570 [0.8402, 0.8738]   AoI mean 1.0707 [1.0618, 1.0796]
+          AoI p95 1.1870 [1.1581, 1.2159]   AoI peak 4.7036 [4.2706, 5.1366]
+          AoI worst vehicle 1.1286 [1.1116, 1.1457]   reuse ratio 1.1198 [1.0872, 1.1523]
+  4b    Mode 0c, N=10                        n=5
+          worst vehicle 0.8251 [0.7635, 0.8868]   per-vehicle p05 0.8092 [0.7423, 0.8760]
+          share meeting 0.95 0.6028 [0.5373, 0.6683]   AoI mean 1.0689 [1.0524, 1.0854]
+          AoI p95 1.7960 [1.3583, 2.2337]   AoI peak 3.8529 [3.3083, 4.3975]
+          AoI worst vehicle 1.2149 [1.1299, 1.2999]   reuse ratio 1.4185 [1.4160, 1.4211]
+  4b    SB-SPS, N=10                         n=5
+          worst vehicle 0.6761 [0.6639, 0.6882]   per-vehicle p05 0.5978 [0.5768, 0.6188]
+          share meeting 0.95 0.5004 [0.4797, 0.5211]   AoI mean 1.2042 [1.1865, 1.2218]
+          AoI p95 2.3700 [2.2818, 2.4582]   AoI peak 8.4124 [8.0098, 8.8150]
+          AoI worst vehicle 1.7496 [1.7095, 1.7897]   reuse ratio 1.3748 [1.3727, 1.3770]
+  4b    Mode 0b, N=10                        n=3
+          worst vehicle 0.8455 [0.6250, 1.0000]*   per-vehicle p05 0.8295 [0.5982, 1.0000]*
+          share meeting 0.95 0.6827 [0.5014, 0.8639]   AoI mean 1.0599 [1.0000, 1.1249]*
+          AoI p95 1.4200 [1.0000, 2.7090]*   AoI peak 3.8842 [1.4249, 6.3434]
+          AoI worst vehicle 1.1963 [1.0000, 1.5399]*   reuse ratio 1.3663 [1.2229, 1.5096]
+  4b    M=7, shared pool                     n=3
+          worst vehicle 0.8900 [0.8088, 0.9712]   per-vehicle p05 0.8770 [0.7989, 0.9551]
+          share meeting 0.95 0.8027 [0.7803, 0.8251]   AoI mean 1.0296 [1.0029, 1.0563]
+          AoI p95 1.0000 [1.0000, 1.0000]   AoI peak 3.1207 [2.2788, 3.9626]
+          AoI worst vehicle 1.1238 [1.0235, 1.2240]   reuse ratio 1.7623 [1.4221, 2.1025]
+  4b    M=7, partition (pool 5)              n=3
+          worst vehicle 0.9997 [0.9993, 1.0000]*   per-vehicle p05 1.0000 [1.0000, 1.0000]*
+          share meeting 0.95 1.0000 [1.0000, 1.0000]   AoI mean 1.0001 [1.0000, 1.0001]*
+          AoI p95 1.0000 [1.0000, 1.0000]   AoI peak 1.0523 [1.0000, 1.1352]*
+          AoI worst vehicle 1.0003 [1.0000, 1.0007]*   reuse ratio n/a (F27: no sharing to measure, or the shuffle ignores a partition)
+
+  Reconciliation against the numbers the record cites (v2's values are the ones to use)
+          Mode 0c, N=10 / M0 PDR                       record 0.9405 [0.9281, 0.9529]   v2 0.9405 [0.9281, 0.9528]   rounding
+          Mode 0c, N=10 / WIRC                         record 0.7921 [0.7815, 0.8028]   v2 0.7921 [0.7815, 0.8027]   rounding
+          Mode 0c, N=10 / M1 PDR                       record 0.9628 [0.9568, 0.9689]   v2 0.9629 [0.9568, 0.9689]   rounding
+          SB-SPS, N=10 / M0 PDR                        record 0.8967 [0.8900, 0.9034]   v2 0.8967 [0.8900, 0.9034]   same
+          SB-SPS, N=10 / WIRC                          record 0.6736 [0.6578, 0.6894]   v2 0.6736 [0.6578, 0.6894]   same
+          SB-SPS, N=10 / M1 PDR                        record 0.9437 [0.9418, 0.9455]   v2 0.9437 [0.9418, 0.9455]   same
+          SB-SPS, N=4 / M0 PDR                         record 0.9811 [0.9800, 0.9823]   v2 0.9811 [0.9800, 0.9823]   same
+          SB-SPS, N=4 / WIRC                           record 0.8573 [0.8465, 0.8681]   v2 0.8573 [0.8465, 0.8681]   same
+          Mode 0a, N=10, paper critic / M0 PDR         record 0.6161 [0.6120, 0.6201]   v2 0.6161 [0.6120, 0.6201]   same
+          Mode 0c, N=4 / M0 PDR                        record 0.9997 [0.9995, 0.9998]   v2 0.9997 [0.9995, 0.9998]   same
+          Mode 0a, N=4, paper critic / M0 PDR          record 0.9999 [0.9998, 1.0000]   v2 0.9999 [0.9998, 1.0000]   same
+          M=7, shared pool / M0 PDR                    record 0.9732 [0.9502, 0.9963]   v2 0.9732 [0.9502, 0.9963]   same
+          N=10, partition (pool 4) / M0 PDR            record 0.8785 [0.8772, 0.8799]   v2 0.8785 [0.8772, 0.8799]   same
+          Arm P, N=10 / M0 PDR                         record 0.6149 [0.6126, 0.6172]   v2 0.6149 [0.6126, 0.6172]   same
+          Arm S, N=10 / M0 PDR                         record 0.9375 [0.9097, 0.9652]   v2 0.9375 [0.9097, 0.9652]   same
+          Mode 0c, N=10, delta=1.0 / M0 PDR            record 0.9393 [0.9056, 0.9729]   v2 0.9393 [0.9056, 0.9729]   same
+          Mode 0b, N=10 / M0 PDR                       record 0.9491 [0.9098, 0.9884]   v2 0.9491 [0.9098, 0.9884]   same
+
+325 rows (282 intervals) written to results/_ci_summary_v2.csv and .json; 72 clipped at a bound (*).
+Not run by decision: C_N10_seed3_gaefix_g05_ent01 (D4), C_N4_seed3_gaefix_g05_ent01 (D4)
+All expected result files found.

@@ -8,9 +8,9 @@ authors:
 type: software
 license: MIT
 repository-code: "https://github.com/Bluenight-jig/v2x-mode0-replication"
-url: "https://doi.org/10.5281/zenodo.20338349"
-version: "1.0.0"
-date-released: "2026-05-22"
+url: "https://doi.org/10.5281/zenodo.20338167"
+version: "2.0.0"
+date-released: "2026-10-07"
 keywords:
   - V2X
   - vehicle-to-everything
@@ -20,10 +20,9 @@ keywords:
   - reproducibility
 preferred-citation:
   type: article
-  title: "Mode 0: A New 3GPP V2X Resource Allocation Category for Roadside Computing Unit-Assisted Safety Communication"
+  title: "Mode 0: Architecture, Risk Taxonomy, and Standardization Pathway for RCU-Assisted V2X Safety Communication"
   authors:
     - family-names: "Jiang"
       given-names: "Dewei"
-  # journal: TBD (manuscript under review)
+  status: submitted
   year: 2026
-  doi: "[DOI]"

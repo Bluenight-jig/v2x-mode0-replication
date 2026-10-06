@@ -1,0 +1,35 @@
+[seed] all RNGs seeded with 3
+GPU : NVIDIA GeForce RTX 3060
+VRAM: 12.9 GB
+Device          : cuda:0
+Actors          : 10 per-vehicle, total 212,730 params
+Critic params   : 96,257
+obs_dim=11  action_dim=25  gs_dim=115
+M0 count: 5  M1 count: 5
+Training for 5000 episodes (Config A_mode0c_N10_seed3_gaefix_g05_ent01_armS, N=10)...
+
+[NS3Bridge] Connected tcp://localhost:8656
+[NS3Bridge] WARNING: timeout — using fallback values
+Traceback (most recent call last):
+  File "/home/jig/v2x_clean/train_d9_A_mode0c_N10_seed3_gaefix_g05_ent01_armS.py", line 392, in <module>
+    main()
+  File "/home/jig/v2x_clean/train_d9_A_mode0c_N10_seed3_gaefix_g05_ent01_armS.py", line 157, in main
+    nobs, rew, done, trunc, info = env.step(acts)
+  File "/home/jig/v2x_clean/envs/v2x_env_arms.py", line 37, in step
+    return super().step((a // self.n_pwr) * self.n_pwr + self._fixed_pwr)
+  File "/home/jig/v2x_clean/envs/v2x_env.py", line 130, in step
+    phy=self.bridge.step(positions,subch,powers_dBm)
+  File "/home/jig/v2x_clean/envs/ns3_bridge.py", line 38, in step
+    self._socket.send_string(json.dumps(payload))
+  File "/home/jig/miniconda3/envs/v2x/lib/python3.10/site-packages/zmq/sugar/socket.py", line 944, in send_string
+    return self.send(u.encode(encoding), flags=flags, copy=copy, **kwargs)
+  File "/home/jig/miniconda3/envs/v2x/lib/python3.10/site-packages/zmq/sugar/socket.py", line 713, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/_zmq.py", line 1152, in zmq.backend.cython._zmq.Socket.send
+  File "zmq/backend/cython/_zmq.py", line 1200, in zmq.backend.cython._zmq.Socket.send
+  File "zmq/backend/cython/_zmq.py", line 1473, in zmq.backend.cython._zmq._send_copy
+  File "zmq/backend/cython/_zmq.py", line 1468, in zmq.backend.cython._zmq._send_copy
+  File "zmq/backend/cython/_zmq.py", line 190, in zmq.backend.cython._zmq._check_rc
+zmq.error.ZMQError: Operation cannot be accomplished in current state
+Error: tcpip::Socket::recvAndCheck @ recv: peer shutdown
+Quitting (on error).

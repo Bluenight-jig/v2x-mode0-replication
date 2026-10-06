@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{Mode 0b at $N = 10$ by vehicle type (three seeds; agent-specific critic). $^{*}$ interval clipped at 1.}
+\label{tab:mode0b}
+\footnotesize
+\begin{tabular}{ll}
+\toprule
+Vehicles & Delivery [95\% CI] or within-pool by seed \\
+\midrule
+Safety, active (3 vehicles) & 0.941 [0.872, 1.000]$^{*}$ \\
+Safety, passive (2, one shared actor) & 0.962 [0.926, 0.997] \\
+M1, active (2 vehicles) & 0.964 [0.902, 1.000]$^{*}$ \\
+M1, passive (3, one shared actor) & 0.825 [0.509, 1.000]$^{*}$ \\
+\midrule
+Passive safety pair, within-pool & 0.004, 0.006, 0.002 \\
+Passive M1 trio, within-pool (random 0.360) & 0.372, 0.013, 0.026 \\
+\midrule
+All-Mode-0c fleet, safety (agent-specific) & 0.941 [0.911, 0.971] \\
+All-Mode-0a fleet, safety (agent-specific) & 0.616 [0.610, 0.622] \\
+\bottomrule
+\end{tabular}
+\end{table}

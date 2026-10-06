@@ -1,0 +1,58 @@
+{
+  "label": "SBSPS_rsrp80w40_N10_seed5",
+  "kind": "sbsps",
+  "N": 10,
+  "M": 5,
+  "own_window": {
+    "warmup": 40,
+    "episodes": 100,
+    "m0_pdr_mean": 0.8912317860126495,
+    "wirc": 0.6557734167575836,
+    "m1_pdr_mean": 0.942893562912941,
+    "worst_vehicle_delivery": 0.6621033388376236,
+    "per_vehicle_p05": 0.5802084296941757,
+    "share_vehicles_meeting_095": 0.478,
+    "aoi_mean": 1.20961375,
+    "aoi_p95": 2.35,
+    "aoi_peak": 8.518999999999998,
+    "aoi_worst_vehicle_mean": 1.763853125,
+    "p_aoi_above_1": 0.10864437500000002,
+    "aoi_draws": 20,
+    "reuse": {
+      "co_channel_sep_m": 527.5603773020345,
+      "shuffled_sep_m": 383.80506604593523,
+      "ratio": 1.3745529279670687
+    }
+  },
+  "common_window_40": {
+    "warmup": 40,
+    "episodes": 100,
+    "m0_pdr_mean": 0.8912317860126495,
+    "wirc": 0.6557734167575836,
+    "m1_pdr_mean": 0.942893562912941,
+    "worst_vehicle_delivery": 0.6621033388376236,
+    "per_vehicle_p05": 0.5802084296941757,
+    "share_vehicles_meeting_095": 0.478,
+    "aoi_mean": 1.20961375,
+    "aoi_p95": 2.35,
+    "aoi_peak": 8.518999999999998,
+    "aoi_worst_vehicle_mean": 1.763853125,
+    "p_aoi_above_1": 0.10864437500000002,
+    "aoi_draws": 20,
+    "reuse": {
+      "co_channel_sep_m": 527.5603773020345,
+      "shuffled_sep_m": 383.80506604593523,
+      "ratio": 1.3745529279670687
+    }
+  },
+  "validation": {
+    "logged_m0": 0.8909044858263807,
+    "logged_wirc": 0.661129517480731,
+    "delta_m0": 0.0003273001862688085,
+    "delta_wirc": -0.005356100723147406,
+    "status": "OK"
+  },
+  "fraction_of_partial_probabilities": 0.286695,
+  "sec_per_episode": 5.719068892002106,
+  "wall_minutes": 9.531781486670177
+}

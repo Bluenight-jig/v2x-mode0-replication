@@ -1,4 +1,4 @@
-import os, sys, io
+import os, sys, io, pathlib
 import numpy as np
 import traci
 from gymnasium import Env, spaces
@@ -37,8 +37,10 @@ class V2XEnv(Env):
 
         self.bridge=NS3Bridge(
             n_vehicles=self.N, port=cfg.get("ns3_port",5556),
-            binary=os.path.expanduser(
-                cfg.get("bridge_binary","~/v2x_thesis/ns3_bridge/v2x_bridge")),
+            binary=os.path.expanduser(cfg.get(
+                "bridge_binary",
+                str(pathlib.Path(__file__).resolve().parent.parent
+                    / "ns3_bridge" / "v2x_bridge"))),
             fc_ghz=cfg.get("fc_ghz",5.9))
 
         self._bridge_started=False; self.vehicle_ids=[]; self._t=0
@@ -92,7 +94,11 @@ class V2XEnv(Env):
         finally:
             sys.stdout,sys.stderr=_oo,_oe
 
-        for _ in range(60): traci.simulationStep()
+        # [DIAGNOSTIC] warm up until N vehicles are actually present.
+        _warm = 0
+        while len(traci.vehicle.getIDList()) < self.N and _warm < 900:
+            traci.simulationStep(); _warm += 1
+        for _ in range(10): traci.simulationStep()
         # 60 steps = 6 s at 0.1s step-length — lets vehicles spawn.
         # Increase to 100 if vehicle list is empty after reset.
 

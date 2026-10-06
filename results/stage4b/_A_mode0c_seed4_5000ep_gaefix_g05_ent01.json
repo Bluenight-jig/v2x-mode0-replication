@@ -1,0 +1,58 @@
+{
+  "label": "A_mode0c_seed4_5000ep_gaefix_g05_ent01",
+  "kind": "mode_0c_per_vehicle_actors",
+  "N": 4,
+  "M": 5,
+  "own_window": {
+    "warmup": 0,
+    "episodes": 100,
+    "m0_pdr_mean": 0.999488222002983,
+    "wirc": 1.0,
+    "m1_pdr_mean": 0.9980459678173065,
+    "worst_vehicle_delivery": 0.9990676242113113,
+    "per_vehicle_p05": 0.9950001239776611,
+    "share_vehicles_meeting_095": 1.0,
+    "aoi_mean": 1.0004925,
+    "aoi_p95": 1.0,
+    "aoi_peak": 1.1685,
+    "aoi_worst_vehicle_mean": 1.0009424999999998,
+    "p_aoi_above_1": 0.0004925,
+    "aoi_draws": 20,
+    "reuse": {
+      "co_channel_sep_m": 142.25031143188477,
+      "shuffled_sep_m": 180.44357162475586,
+      "ratio": 0.7883368199322919
+    }
+  },
+  "common_window_40": {
+    "warmup": 40,
+    "episodes": 100,
+    "m0_pdr_mean": 0.999479501247406,
+    "wirc": 1.0,
+    "m1_pdr_mean": 0.9980822503566742,
+    "worst_vehicle_delivery": 0.9989590001106262,
+    "per_vehicle_p05": 0.9937503844499588,
+    "share_vehicles_meeting_095": 1.0,
+    "aoi_mean": 1.000525,
+    "aoi_p95": 1.0,
+    "aoi_peak": 1.1480000000000001,
+    "aoi_worst_vehicle_mean": 1.00105,
+    "p_aoi_above_1": 0.000525,
+    "aoi_draws": 20,
+    "reuse": {
+      "co_channel_sep_m": 148.67470417022705,
+      "shuffled_sep_m": 164.21233081817627,
+      "ratio": 0.9053808774862758
+    }
+  },
+  "validation": {
+    "logged_m0": 0.9995008933514358,
+    "logged_wirc": 1.0,
+    "delta_m0": -1.2671348452730768e-05,
+    "delta_wirc": 0.0,
+    "status": "OK"
+  },
+  "fraction_of_partial_probabilities": 0.0040625,
+  "sec_per_episode": 3.6878545308113098,
+  "wall_minutes": 6.14642421801885
+}

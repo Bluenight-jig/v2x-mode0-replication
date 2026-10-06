@@ -1,0 +1,30 @@
+[
+  {
+    "config": "A_mode0c_N10_seed1_gaefix_g05_ent01_lc",
+    "N": 10,
+    "M": 5,
+    "rho": 2.0,
+    "M_m0": null,
+    "m0_ratio": 0.5,
+    "m0_pdr_mean": 0.9316144949778916,
+    "m0_pdr_p05": 0.9190588802918792,
+    "m0_pdr_p05_intra": 0.7847876353263855,
+    "m1_pdr_mean": 0.9598558359131217,
+    "m0_sinr_mean": 17.625936577892304,
+    "m1_sinr_mean": 19.987996557474137,
+    "m0_collision_rate": 0.9999800000000001,
+    "m0_collision_rate_within_pool": 0.0,
+    "m1_collision_rate_within_pool": 4e-05,
+    "train_m0_pdr_last100": 0.9322569145396352,
+    "train_m1_pdr_last100": 0.9598913522332906,
+    "actor_loss": -1.2423843145370484e-07,
+    "actor_loss_m0": 0.04640776887536049,
+    "actor_loss_m1": -0.0464080173522234,
+    "critic_loss": 0.0453588105738163,
+    "entropy_m0": 9.16941972946006e-06,
+    "entropy_m1": 0.0002467895617883187,
+    "n_episodes": 5000,
+    "n_eval_episodes": 100,
+    "architecture": "mode_0c_per_vehicle_actors"
+  }
+]

@@ -1,0 +1,500 @@
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] A_mode0c_seed2_5000ep_gaefix_g05_ent01: N=4 M=5 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   3.5 s/episode   about 6 min left
+  episode  10/100   3.8 s/episode   about 6 min left
+  episode  20/100   3.8 s/episode   about 5 min left
+  episode  30/100   3.8 s/episode   about 4 min left
+  episode  40/100   3.7 s/episode   about 4 min left
+  episode  50/100   3.7 s/episode   about 3 min left
+  episode  60/100   3.7 s/episode   about 2 min left
+  episode  70/100   3.7 s/episode   about 2 min left
+  episode  80/100   3.7 s/episode   about 1 min left
+  episode  90/100   3.7 s/episode   about 1 min left
+  episode 100/100   3.7 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 6.2 min (3.7 s/episode)
+  validation vs the run's own evaluation: M0 0.9996 (logged 0.9996, delta -0.0000); WIRC 1.0000 (logged 1.0000, delta +0.0000)  -> OK
+  per-vehicle: worst vehicle 0.9993; 5th percentile 0.9950; share meeting 0.95 1.000
+  AoI (intervals): mean 1.000, 95th percentile 1.00, peak 1.1
+  saved results/stage4b/A_mode0c_seed2_5000ep_gaefix_g05_ent01.npz and results/stage4b/_A_mode0c_seed2_5000ep_gaefix_g05_ent01.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] A_mode0c_seed3_5000ep_gaefix_g05_ent01: N=4 M=5 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   4.6 s/episode   about 8 min left
+  episode  10/100   3.7 s/episode   about 6 min left
+  episode  20/100   3.7 s/episode   about 5 min left
+  episode  30/100   3.7 s/episode   about 4 min left
+  episode  40/100   3.7 s/episode   about 4 min left
+  episode  50/100   3.7 s/episode   about 3 min left
+  episode  60/100   3.7 s/episode   about 2 min left
+  episode  70/100   3.7 s/episode   about 2 min left
+  episode  80/100   3.7 s/episode   about 1 min left
+  episode  90/100   3.7 s/episode   about 1 min left
+  episode 100/100   3.7 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 6.2 min (3.7 s/episode)
+  validation vs the run's own evaluation: M0 0.9998 (logged 0.9998, delta +0.0000); WIRC 1.0000 (logged 1.0000, delta +0.0000)  -> OK
+  per-vehicle: worst vehicle 0.9996; 5th percentile 1.0000; share meeting 0.95 1.000
+  AoI (intervals): mean 1.000, 95th percentile 1.00, peak 1.1
+  saved results/stage4b/A_mode0c_seed3_5000ep_gaefix_g05_ent01.npz and results/stage4b/_A_mode0c_seed3_5000ep_gaefix_g05_ent01.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] A_mode0c_seed4_5000ep_gaefix_g05_ent01: N=4 M=5 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   3.7 s/episode   about 6 min left
+  episode  10/100   3.8 s/episode   about 6 min left
+  episode  20/100   3.7 s/episode   about 5 min left
+  episode  30/100   3.7 s/episode   about 4 min left
+  episode  40/100   3.7 s/episode   about 4 min left
+  episode  50/100   3.7 s/episode   about 3 min left
+  episode  60/100   3.7 s/episode   about 2 min left
+  episode  70/100   3.7 s/episode   about 2 min left
+  episode  80/100   3.7 s/episode   about 1 min left
+  episode  90/100   3.7 s/episode   about 1 min left
+  episode 100/100   3.7 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 6.1 min (3.7 s/episode)
+  validation vs the run's own evaluation: M0 0.9995 (logged 0.9995, delta -0.0000); WIRC 1.0000 (logged 1.0000, delta +0.0000)  -> OK
+  per-vehicle: worst vehicle 0.9991; 5th percentile 0.9950; share meeting 0.95 1.000
+  AoI (intervals): mean 1.000, 95th percentile 1.00, peak 1.2
+  saved results/stage4b/A_mode0c_seed4_5000ep_gaefix_g05_ent01.npz and results/stage4b/_A_mode0c_seed4_5000ep_gaefix_g05_ent01.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] A_mode0c_seed5_5000ep_gaefix_g05_ent01: N=4 M=5 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   4.3 s/episode   about 7 min left
+  episode  10/100   3.8 s/episode   about 6 min left
+  episode  20/100   3.7 s/episode   about 5 min left
+  episode  30/100   3.7 s/episode   about 4 min left
+  episode  40/100   3.7 s/episode   about 4 min left
+  episode  50/100   3.7 s/episode   about 3 min left
+  episode  60/100   3.7 s/episode   about 2 min left
+  episode  70/100   3.7 s/episode   about 2 min left
+  episode  80/100   3.7 s/episode   about 1 min left
+  episode  90/100   3.7 s/episode   about 1 min left
+  episode 100/100   3.7 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 6.2 min (3.7 s/episode)
+  validation vs the run's own evaluation: M0 0.9998 (logged 0.9997, delta +0.0001); WIRC 1.0000 (logged 1.0000, delta +0.0000)  -> OK
+  per-vehicle: worst vehicle 0.9996; 5th percentile 1.0000; share meeting 0.95 1.000
+  AoI (intervals): mean 1.000, 95th percentile 1.00, peak 1.1
+  saved results/stage4b/A_mode0c_seed5_5000ep_gaefix_g05_ent01.npz and results/stage4b/_A_mode0c_seed5_5000ep_gaefix_g05_ent01.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] SBSPS_rsrp80w40_N4_seed1: N=4 M=5 episodes=100 warm-up=40 port=9406  (CPU inference)
+  episode   1/100   3.1 s/episode   about 5 min left
+  episode  10/100   3.3 s/episode   about 5 min left
+  episode  20/100   3.3 s/episode   about 4 min left
+  episode  30/100   3.3 s/episode   about 4 min left
+  episode  40/100   3.3 s/episode   about 3 min left
+  episode  50/100   3.3 s/episode   about 3 min left
+  episode  60/100   3.3 s/episode   about 2 min left
+  episode  70/100   3.3 s/episode   about 2 min left
+  episode  80/100   3.3 s/episode   about 1 min left
+  episode  90/100   3.3 s/episode   about 1 min left
+  episode 100/100   3.3 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 5.5 min (3.3 s/episode)
+  validation vs the run's own evaluation: M0 0.9822 (logged 0.9826, delta -0.0005); WIRC 0.8489 (logged 0.8657, delta -0.0168)  -> OK
+  per-vehicle: worst vehicle 0.9696; 5th percentile 0.9187; share meeting 0.95 0.855
+  AoI (intervals): mean 1.070, 95th percentile 1.19, peak 4.8
+  saved results/stage4b/SBSPS_rsrp80w40_N4_seed1.npz and results/stage4b/_SBSPS_rsrp80w40_N4_seed1.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] SBSPS_rsrp80w40_N4_seed2: N=4 M=5 episodes=100 warm-up=40 port=9406  (CPU inference)
+  episode   1/100   3.1 s/episode   about 5 min left
+  episode  10/100   3.2 s/episode   about 5 min left
+  episode  20/100   3.3 s/episode   about 4 min left
+  episode  30/100   3.3 s/episode   about 4 min left
+  episode  40/100   3.2 s/episode   about 3 min left
+  episode  50/100   3.2 s/episode   about 3 min left
+  episode  60/100   3.2 s/episode   about 2 min left
+  episode  70/100   3.2 s/episode   about 2 min left
+  episode  80/100   3.2 s/episode   about 1 min left
+  episode  90/100   3.2 s/episode   about 1 min left
+  episode 100/100   3.2 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 5.4 min (3.2 s/episode)
+  validation vs the run's own evaluation: M0 0.9813 (logged 0.9811, delta +0.0001); WIRC 0.8554 (logged 0.8505, delta +0.0049)  -> OK
+  per-vehicle: worst vehicle 0.9687; 5th percentile 0.9250; share meeting 0.95 0.870
+  AoI (intervals): mean 1.065, 95th percentile 1.17, peak 4.3
+  saved results/stage4b/SBSPS_rsrp80w40_N4_seed2.npz and results/stage4b/_SBSPS_rsrp80w40_N4_seed2.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] SBSPS_rsrp80w40_N4_seed3: N=4 M=5 episodes=100 warm-up=40 port=9406  (CPU inference)
+  episode   1/100   3.2 s/episode   about 5 min left
+  episode  10/100   3.2 s/episode   about 5 min left
+  episode  20/100   3.2 s/episode   about 4 min left
+  episode  30/100   3.3 s/episode   about 4 min left
+  episode  40/100   3.3 s/episode   about 3 min left
+  episode  50/100   3.3 s/episode   about 3 min left
+  episode  60/100   3.2 s/episode   about 2 min left
+  episode  70/100   3.3 s/episode   about 2 min left
+  episode  80/100   3.3 s/episode   about 1 min left
+  episode  90/100   3.3 s/episode   about 1 min left
+  episode 100/100   3.3 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 5.4 min (3.3 s/episode)
+  validation vs the run's own evaluation: M0 0.9807 (logged 0.9804, delta +0.0004); WIRC 0.8734 (logged 0.8604, delta +0.0130)  -> OK
+  per-vehicle: worst vehicle 0.9670; 5th percentile 0.9247; share meeting 0.95 0.860
+  AoI (intervals): mean 1.074, 95th percentile 1.19, peak 4.9
+  saved results/stage4b/SBSPS_rsrp80w40_N4_seed3.npz and results/stage4b/_SBSPS_rsrp80w40_N4_seed3.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] SBSPS_rsrp80w40_N4_seed4: N=4 M=5 episodes=100 warm-up=40 port=9406  (CPU inference)
+  episode   1/100   3.9 s/episode   about 6 min left
+  episode  10/100   3.3 s/episode   about 5 min left
+  episode  20/100   3.2 s/episode   about 4 min left
+  episode  30/100   3.2 s/episode   about 4 min left
+  episode  40/100   3.2 s/episode   about 3 min left
+  episode  50/100   3.2 s/episode   about 3 min left
+  episode  60/100   3.2 s/episode   about 2 min left
+  episode  70/100   3.2 s/episode   about 2 min left
+  episode  80/100   3.2 s/episode   about 1 min left
+  episode  90/100   3.2 s/episode   about 1 min left
+  episode 100/100   3.2 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 5.3 min (3.2 s/episode)
+  validation vs the run's own evaluation: M0 0.9818 (logged 0.9811, delta +0.0008); WIRC 0.8645 (logged 0.8639, delta +0.0006)  -> OK
+  per-vehicle: worst vehicle 0.9675; 5th percentile 0.9125; share meeting 0.95 0.865
+  AoI (intervals): mean 1.064, 95th percentile 1.16, peak 4.4
+  saved results/stage4b/SBSPS_rsrp80w40_N4_seed4.npz and results/stage4b/_SBSPS_rsrp80w40_N4_seed4.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] SBSPS_rsrp80w40_N4_seed5: N=4 M=5 episodes=100 warm-up=40 port=9406  (CPU inference)
+  episode   1/100   4.4 s/episode   about 7 min left
+  episode  10/100   3.3 s/episode   about 5 min left
+  episode  20/100   3.3 s/episode   about 4 min left
+  episode  30/100   3.3 s/episode   about 4 min left
+  episode  40/100   3.3 s/episode   about 3 min left
+  episode  50/100   3.2 s/episode   about 3 min left
+  episode  60/100   3.2 s/episode   about 2 min left
+  episode  70/100   3.2 s/episode   about 2 min left
+  episode  80/100   3.2 s/episode   about 1 min left
+  episode  90/100   3.2 s/episode   about 1 min left
+  episode 100/100   3.2 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 5.4 min (3.2 s/episode)
+  validation vs the run's own evaluation: M0 0.9807 (logged 0.9804, delta +0.0004); WIRC 0.8552 (logged 0.8458, delta +0.0094)  -> OK
+  per-vehicle: worst vehicle 0.9668; 5th percentile 0.9186; share meeting 0.95 0.835
+  AoI (intervals): mean 1.081, 95th percentile 1.22, peak 5.1
+  saved results/stage4b/SBSPS_rsrp80w40_N4_seed5.npz and results/stage4b/_SBSPS_rsrp80w40_N4_seed5.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] A_mode0c_N10_seed1_gaefix_g05_ent01: N=10 M=5 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   6.4 s/episode   about 10 min left
+  episode  10/100   6.5 s/episode   about 10 min left
+  episode  20/100   6.5 s/episode   about 9 min left
+  episode  30/100   6.4 s/episode   about 7 min left
+  episode  40/100   6.5 s/episode   about 6 min left
+  episode  50/100   6.5 s/episode   about 5 min left
+  episode  60/100   6.5 s/episode   about 4 min left
+  episode  70/100   6.5 s/episode   about 3 min left
+  episode  80/100   6.5 s/episode   about 2 min left
+  episode  90/100   6.5 s/episode   about 1 min left
+  episode 100/100   6.5 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 10.8 min (6.5 s/episode)
+  validation vs the run's own evaluation: M0 0.9405 (logged 0.9416, delta -0.0012); WIRC 0.7929 (logged 0.7955, delta -0.0026)  -> OK
+  per-vehicle: worst vehicle 0.8106; 5th percentile 0.7936; share meeting 0.95 0.648
+  AoI (intervals): mean 1.069, 95th percentile 1.92, peak 3.9
+  saved results/stage4b/A_mode0c_N10_seed1_gaefix_g05_ent01.npz and results/stage4b/_A_mode0c_N10_seed1_gaefix_g05_ent01.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] A_mode0c_N10_seed2_gaefix_g05_ent01: N=10 M=5 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   6.1 s/episode   about 10 min left
+  episode  10/100   6.4 s/episode   about 10 min left
+  episode  20/100   6.4 s/episode   about 9 min left
+  episode  30/100   6.4 s/episode   about 8 min left
+  episode  40/100   6.5 s/episode   about 7 min left
+  episode  50/100   6.5 s/episode   about 5 min left
+  episode  60/100   6.5 s/episode   about 4 min left
+  episode  70/100   6.5 s/episode   about 3 min left
+  episode  80/100   6.5 s/episode   about 2 min left
+  episode  90/100   6.5 s/episode   about 1 min left
+  episode 100/100   6.6 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 10.9 min (6.6 s/episode)
+  validation vs the run's own evaluation: M0 0.9321 (logged 0.9321, delta -0.0000); WIRC 0.7861 (logged 0.7791, delta +0.0070)  -> OK
+  per-vehicle: worst vehicle 0.7936; 5th percentile 0.7773; share meeting 0.95 0.550
+  AoI (intervals): mean 1.081, 95th percentile 2.00, peak 4.3
+  saved results/stage4b/A_mode0c_N10_seed2_gaefix_g05_ent01.npz and results/stage4b/_A_mode0c_N10_seed2_gaefix_g05_ent01.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] A_mode0c_N10_seed3_gaefix_g05_ent01: N=10 M=5 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   6.6 s/episode   about 11 min left
+  episode  10/100   6.5 s/episode   about 10 min left
+  episode  20/100   6.4 s/episode   about 9 min left
+  episode  30/100   6.4 s/episode   about 7 min left
+  episode  40/100   6.4 s/episode   about 6 min left
+  episode  50/100   6.4 s/episode   about 5 min left
+  episode  60/100   6.4 s/episode   about 4 min left
+  episode  70/100   6.4 s/episode   about 3 min left
+  episode  80/100   6.5 s/episode   about 2 min left
+  episode  90/100   6.5 s/episode   about 1 min left
+  episode 100/100   6.5 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 10.8 min (6.5 s/episode)
+  validation vs the run's own evaluation: M0 0.9328 (logged 0.9316, delta +0.0012); WIRC 0.7850 (logged 0.7881, delta -0.0031)  -> OK
+  per-vehicle: worst vehicle 0.7964; 5th percentile 0.7766; share meeting 0.95 0.560
+  AoI (intervals): mean 1.079, 95th percentile 1.99, peak 4.1
+  saved results/stage4b/A_mode0c_N10_seed3_gaefix_g05_ent01.npz and results/stage4b/_A_mode0c_N10_seed3_gaefix_g05_ent01.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] A_mode0c_N10_seed4_gaefix_g05_ent01: N=10 M=5 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   6.2 s/episode   about 10 min left
+  episode  10/100   6.4 s/episode   about 10 min left
+  episode  20/100   6.5 s/episode   about 9 min left
+  episode  30/100   6.5 s/episode   about 8 min left
+  episode  40/100   6.5 s/episode   about 6 min left
+  episode  50/100   6.5 s/episode   about 5 min left
+  episode  60/100   6.4 s/episode   about 4 min left
+  episode  70/100   6.4 s/episode   about 3 min left
+  episode  80/100   6.5 s/episode   about 2 min left
+  episode  90/100   6.5 s/episode   about 1 min left
+  episode 100/100   6.5 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 10.8 min (6.5 s/episode)
+  validation vs the run's own evaluation: M0 0.9553 (logged 0.9562, delta -0.0009); WIRC 0.7997 (logged 0.7994, delta +0.0003)  -> OK
+  per-vehicle: worst vehicle 0.9127; 5th percentile 0.9043; share meeting 0.95 0.588
+  AoI (intervals): mean 1.047, 95th percentile 1.17, peak 3.1
+  saved results/stage4b/A_mode0c_N10_seed4_gaefix_g05_ent01.npz and results/stage4b/_A_mode0c_N10_seed4_gaefix_g05_ent01.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] A_mode0c_N10_seed5_gaefix_g05_ent01: N=10 M=5 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   6.1 s/episode   about 10 min left
+  episode  10/100   6.4 s/episode   about 10 min left
+  episode  20/100   6.4 s/episode   about 9 min left
+  episode  30/100   6.4 s/episode   about 8 min left
+  episode  40/100   6.5 s/episode   about 6 min left
+  episode  50/100   6.4 s/episode   about 5 min left
+  episode  60/100   6.4 s/episode   about 4 min left
+  episode  70/100   6.4 s/episode   about 3 min left
+  episode  80/100   6.5 s/episode   about 2 min left
+  episode  90/100   6.5 s/episode   about 1 min left
+  episode 100/100   6.5 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 10.8 min (6.5 s/episode)
+  validation vs the run's own evaluation: M0 0.9406 (logged 0.9409, delta -0.0003); WIRC 0.7966 (logged 0.7986, delta -0.0020)  -> OK
+  per-vehicle: worst vehicle 0.8125; 5th percentile 0.7939; share meeting 0.95 0.668
+  AoI (intervals): mean 1.069, 95th percentile 1.90, peak 3.9
+  saved results/stage4b/A_mode0c_N10_seed5_gaefix_g05_ent01.npz and results/stage4b/_A_mode0c_N10_seed5_gaefix_g05_ent01.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] SBSPS_rsrp80w40_N10_seed1: N=10 M=5 episodes=100 warm-up=40 port=9406  (CPU inference)
+  episode   1/100   5.3 s/episode   about 9 min left
+  episode  10/100   5.5 s/episode   about 8 min left
+  episode  20/100   5.5 s/episode   about 7 min left
+  episode  30/100   5.5 s/episode   about 6 min left
+  episode  40/100   5.5 s/episode   about 6 min left
+  episode  50/100   5.5 s/episode   about 5 min left
+  episode  60/100   5.5 s/episode   about 4 min left
+  episode  70/100   5.5 s/episode   about 3 min left
+  episode  80/100   5.5 s/episode   about 2 min left
+  episode  90/100   5.5 s/episode   about 1 min left
+  episode 100/100   5.5 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 9.2 min (5.5 s/episode)
+  validation vs the run's own evaluation: M0 0.8925 (logged 0.8916, delta +0.0009); WIRC 0.6583 (logged 0.6592, delta -0.0008)  -> OK
+  per-vehicle: worst vehicle 0.6699; 5th percentile 0.5949; share meeting 0.95 0.488
+  AoI (intervals): mean 1.226, 95th percentile 2.48, peak 8.9
+  saved results/stage4b/SBSPS_rsrp80w40_N10_seed1.npz and results/stage4b/_SBSPS_rsrp80w40_N10_seed1.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] SBSPS_rsrp80w40_N10_seed2: N=10 M=5 episodes=100 warm-up=40 port=9406  (CPU inference)
+  episode   1/100   5.3 s/episode   about 9 min left
+  episode  10/100   5.5 s/episode   about 8 min left
+  episode  20/100   5.5 s/episode   about 7 min left
+  episode  30/100   5.5 s/episode   about 6 min left
+  episode  40/100   5.5 s/episode   about 5 min left
+  episode  50/100   5.5 s/episode   about 5 min left
+  episode  60/100   5.5 s/episode   about 4 min left
+  episode  70/100   5.5 s/episode   about 3 min left
+  episode  80/100   5.5 s/episode   about 2 min left
+  episode  90/100   5.5 s/episode   about 1 min left
+  episode 100/100   5.5 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 9.2 min (5.5 s/episode)
+  validation vs the run's own evaluation: M0 0.9011 (logged 0.9038, delta -0.0028); WIRC 0.6816 (logged 0.6874, delta -0.0059)  -> OK
+  per-vehicle: worst vehicle 0.6829; 5th percentile 0.6239; share meeting 0.95 0.516
+  AoI (intervals): mean 1.189, 95th percentile 2.29, peak 8.2
+  saved results/stage4b/SBSPS_rsrp80w40_N10_seed2.npz and results/stage4b/_SBSPS_rsrp80w40_N10_seed2.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] SBSPS_rsrp80w40_N10_seed3: N=10 M=5 episodes=100 warm-up=40 port=9406  (CPU inference)
+  episode   1/100   5.3 s/episode   about 9 min left
+  episode  10/100   5.5 s/episode   about 8 min left
+  episode  20/100   5.5 s/episode   about 7 min left
+  episode  30/100   5.5 s/episode   about 6 min left
+  episode  40/100   5.5 s/episode   about 6 min left
+  episode  50/100   5.6 s/episode   about 5 min left
+  episode  60/100   5.5 s/episode   about 4 min left
+  episode  70/100   5.5 s/episode   about 3 min left
+  episode  80/100   5.5 s/episode   about 2 min left
+  episode  90/100   5.5 s/episode   about 1 min left
+  episode 100/100   5.5 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 9.2 min (5.5 s/episode)
+  validation vs the run's own evaluation: M0 0.8988 (logged 0.8986, delta +0.0002); WIRC 0.6816 (logged 0.6817, delta -0.0002)  -> OK
+  per-vehicle: worst vehicle 0.6801; 5th percentile 0.5868; share meeting 0.95 0.514
+  AoI (intervals): mean 1.197, 95th percentile 2.34, peak 8.3
+  saved results/stage4b/SBSPS_rsrp80w40_N10_seed3.npz and results/stage4b/_SBSPS_rsrp80w40_N10_seed3.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] SBSPS_rsrp80w40_N10_seed4: N=10 M=5 episodes=100 warm-up=40 port=9406  (CPU inference)
+  episode   1/100   5.5 s/episode   about 9 min left
+  episode  10/100   5.5 s/episode   about 8 min left
+  episode  20/100   5.5 s/episode   about 7 min left
+  episode  30/100   5.5 s/episode   about 6 min left
+  episode  40/100   5.6 s/episode   about 6 min left
+  episode  50/100   5.6 s/episode   about 5 min left
+  episode  60/100   5.6 s/episode   about 4 min left
+  episode  70/100   5.6 s/episode   about 3 min left
+  episode  80/100   5.6 s/episode   about 2 min left
+  episode  90/100   5.6 s/episode   about 1 min left
+  episode 100/100   5.6 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 9.3 min (5.6 s/episode)
+  validation vs the run's own evaluation: M0 0.8993 (logged 0.8986, delta +0.0007); WIRC 0.6858 (logged 0.6787, delta +0.0071)  -> OK
+  per-vehicle: worst vehicle 0.6853; 5th percentile 0.6032; share meeting 0.95 0.506
+  AoI (intervals): mean 1.199, 95th percentile 2.39, peak 8.1
+  saved results/stage4b/SBSPS_rsrp80w40_N10_seed4.npz and results/stage4b/_SBSPS_rsrp80w40_N10_seed4.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] SBSPS_rsrp80w40_N10_seed5: N=10 M=5 episodes=100 warm-up=40 port=9406  (CPU inference)
+  episode   1/100   5.7 s/episode   about 9 min left
+  episode  10/100   5.9 s/episode   about 9 min left
+  episode  20/100   5.9 s/episode   about 8 min left
+  episode  30/100   5.8 s/episode   about 7 min left
+  episode  40/100   5.7 s/episode   about 6 min left
+  episode  50/100   5.7 s/episode   about 5 min left
+  episode  60/100   5.7 s/episode   about 4 min left
+  episode  70/100   5.7 s/episode   about 3 min left
+  episode  80/100   5.7 s/episode   about 2 min left
+  episode  90/100   5.7 s/episode   about 1 min left
+  episode 100/100   5.7 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 9.5 min (5.7 s/episode)
+  validation vs the run's own evaluation: M0 0.8912 (logged 0.8909, delta +0.0003); WIRC 0.6558 (logged 0.6611, delta -0.0054)  -> OK
+  per-vehicle: worst vehicle 0.6621; 5th percentile 0.5802; share meeting 0.95 0.478
+  AoI (intervals): mean 1.210, 95th percentile 2.35, peak 8.5
+  saved results/stage4b/SBSPS_rsrp80w40_N10_seed5.npz and results/stage4b/_SBSPS_rsrp80w40_N10_seed5.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] A_mode0c_N10_M7_seed1_gaefix_g05_ent01: N=10 M=7 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   6.9 s/episode   about 11 min left
+  episode  10/100   6.9 s/episode   about 10 min left
+  episode  20/100   6.8 s/episode   about 9 min left
+  episode  30/100   6.7 s/episode   about 8 min left
+  episode  40/100   6.7 s/episode   about 7 min left
+  episode  50/100   6.7 s/episode   about 6 min left
+  episode  60/100   6.7 s/episode   about 4 min left
+  episode  70/100   6.7 s/episode   about 3 min left
+  episode  80/100   6.7 s/episode   about 2 min left
+  episode  90/100   6.7 s/episode   about 1 min left
+  episode 100/100   6.7 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 11.1 min (6.7 s/episode)
+  validation vs the run's own evaluation: M0 0.9748 (logged 0.9748, delta -0.0001); WIRC 0.8021 (logged 0.8008, delta +0.0013)  -> OK
+  per-vehicle: worst vehicle 0.8924; 5th percentile 0.8789; share meeting 0.95 0.802
+  AoI (intervals): mean 1.028, 95th percentile 1.00, peak 3.1
+  saved results/stage4b/A_mode0c_N10_M7_seed1_gaefix_g05_ent01.npz and results/stage4b/_A_mode0c_N10_M7_seed1_gaefix_g05_ent01.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] A_mode0c_N10_M7_seed2_gaefix_g05_ent01: N=10 M=7 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   7.6 s/episode   about 13 min left
+  episode  10/100   6.4 s/episode   about 10 min left
+  episode  20/100   6.4 s/episode   about 9 min left
+  episode  30/100   6.5 s/episode   about 8 min left
+  episode  40/100   6.4 s/episode   about 6 min left
+  episode  50/100   6.4 s/episode   about 5 min left
+  episode  60/100   6.5 s/episode   about 4 min left
+  episode  70/100   6.5 s/episode   about 3 min left
+  episode  80/100   6.5 s/episode   about 2 min left
+  episode  90/100   6.5 s/episode   about 1 min left
+  episode 100/100   6.5 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 10.8 min (6.5 s/episode)
+  validation vs the run's own evaluation: M0 0.9815 (logged 0.9816, delta -0.0001); WIRC 0.8154 (logged 0.8121, delta +0.0033)  -> OK
+  per-vehicle: worst vehicle 0.9214; 5th percentile 0.9074; share meeting 0.95 0.812
+  AoI (intervals): mean 1.020, 95th percentile 1.00, peak 2.8
+  saved results/stage4b/A_mode0c_N10_M7_seed2_gaefix_g05_ent01.npz and results/stage4b/_A_mode0c_N10_M7_seed2_gaefix_g05_ent01.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] A_mode0c_N10_M7_seed3_gaefix_g05_ent01: N=10 M=7 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   7.6 s/episode   about 13 min left
+  episode  10/100   6.5 s/episode   about 10 min left
+  episode  20/100   6.6 s/episode   about 9 min left
+  episode  30/100   6.5 s/episode   about 8 min left
+  episode  40/100   6.5 s/episode   about 6 min left
+  episode  50/100   6.5 s/episode   about 5 min left
+  episode  60/100   6.5 s/episode   about 4 min left
+  episode  70/100   6.5 s/episode   about 3 min left
+  episode  80/100   6.5 s/episode   about 2 min left
+  episode  90/100   6.5 s/episode   about 1 min left
+  episode 100/100   6.5 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 10.8 min (6.5 s/episode)
+  validation vs the run's own evaluation: M0 0.9635 (logged 0.9633, delta +0.0002); WIRC 0.8000 (logged 0.8001, delta -0.0001)  -> OK
+  per-vehicle: worst vehicle 0.8562; 5th percentile 0.8446; share meeting 0.95 0.794
+  AoI (intervals): mean 1.041, 95th percentile 1.00, peak 3.5
+  saved results/stage4b/A_mode0c_N10_M7_seed3_gaefix_g05_ent01.npz and results/stage4b/_A_mode0c_N10_M7_seed3_gaefix_g05_ent01.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] D_N10_M7_pool5_seed1_gaefix_g05_ent01: N=10 M=7 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   6.3 s/episode   about 10 min left
+  episode  10/100   6.5 s/episode   about 10 min left
+  episode  20/100   6.5 s/episode   about 9 min left
+  episode  30/100   6.5 s/episode   about 8 min left
+  episode  40/100   6.5 s/episode   about 6 min left
+  episode  50/100   6.6 s/episode   about 5 min left
+  episode  60/100   6.6 s/episode   about 4 min left
+  episode  70/100   6.5 s/episode   about 3 min left
+  episode  80/100   6.5 s/episode   about 2 min left
+  episode  90/100   6.5 s/episode   about 1 min left
+  episode 100/100   6.5 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 10.9 min (6.5 s/episode)
+  validation vs the run's own evaluation: M0 0.9999 (logged 0.9999, delta +0.0000); WIRC 1.0000 (logged 1.0000, delta +0.0000)  -> OK
+  per-vehicle: worst vehicle 0.9996; 5th percentile 1.0000; share meeting 0.95 1.000
+  AoI (intervals): mean 1.000, 95th percentile 1.00, peak 1.1
+  saved results/stage4b/D_N10_M7_pool5_seed1_gaefix_g05_ent01.npz and results/stage4b/_D_N10_M7_pool5_seed1_gaefix_g05_ent01.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] D_N10_M7_pool5_seed2_gaefix_g05_ent01: N=10 M=7 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   6.0 s/episode   about 10 min left
+  episode  10/100   6.6 s/episode   about 10 min left
+  episode  20/100   6.5 s/episode   about 9 min left
+  episode  30/100   6.5 s/episode   about 8 min left
+  episode  40/100   6.5 s/episode   about 7 min left
+  episode  50/100   6.5 s/episode   about 5 min left
+  episode  60/100   6.5 s/episode   about 4 min left
+  episode  70/100   6.5 s/episode   about 3 min left
+  episode  80/100   6.5 s/episode   about 2 min left
+  episode  90/100   6.5 s/episode   about 1 min left
+  episode 100/100   6.5 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 10.9 min (6.5 s/episode)
+  validation vs the run's own evaluation: M0 1.0000 (logged 1.0000, delta -0.0000); WIRC 1.0000 (logged 1.0000, delta +0.0000)  -> OK
+  per-vehicle: worst vehicle 0.9999; 5th percentile 1.0000; share meeting 0.95 1.000
+  AoI (intervals): mean 1.000, 95th percentile 1.00, peak 1.0
+  saved results/stage4b/D_N10_M7_pool5_seed2_gaefix_g05_ent01.npz and results/stage4b/_D_N10_M7_pool5_seed2_gaefix_g05_ent01.json
+[NS3Bridge] Connected tcp://localhost:9406
+[Stage 4b] D_N10_M7_pool5_seed3_gaefix_g05_ent01: N=10 M=7 episodes=100 warm-up=0 port=9406  (CPU inference)
+  episode   1/100   6.4 s/episode   about 11 min left
+  episode  10/100   6.5 s/episode   about 10 min left
+  episode  20/100   6.5 s/episode   about 9 min left
+  episode  30/100   6.5 s/episode   about 8 min left
+  episode  40/100   6.5 s/episode   about 6 min left
+  episode  50/100   6.5 s/episode   about 5 min left
+  episode  60/100   6.5 s/episode   about 4 min left
+  episode  70/100   6.5 s/episode   about 3 min left
+  episode  80/100   6.5 s/episode   about 2 min left
+  episode  90/100   6.5 s/episode   about 1 min left
+  episode 100/100   6.5 s/episode   about 0 min left
+[NS3Bridge] Shutdown complete.
+
+  wall time 10.9 min (6.5 s/episode)
+  validation vs the run's own evaluation: M0 0.9999 (logged 1.0000, delta -0.0000); WIRC 1.0000 (logged 1.0000, delta +0.0000)  -> OK
+  per-vehicle: worst vehicle 0.9997; 5th percentile 1.0000; share meeting 0.95 1.000
+  AoI (intervals): mean 1.000, 95th percentile 1.00, peak 1.0
+  saved results/stage4b/D_N10_M7_pool5_seed3_gaefix_g05_ent01.npz and results/stage4b/_D_N10_M7_pool5_seed3_gaefix_g05_ent01.json

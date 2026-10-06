@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+\caption{Critic-input ablation (three seeds per cell) and the reward-weight test ($\delta$). Coordination time: episodes until delivery is sustained at $\geq 0.90$, median [range]. $^{*}$ interval clipped at 1.}
+\label{tab:critic}
+\footnotesize
+\begin{tabular}{lllll}
+\toprule
+Critic & M0 PDR [95\% CI] & M1 PDR [95\% CI] & \multicolumn{2}{c}{Coordination time (episodes)} \\ \cmidrule(lr){4-5} & & & M0 & M1 \\
+\midrule
+\multicolumn{5}{l}{\textit{Mode 0c, $N = 10$}} \\
+\quad team value $V(\mathbf{s})$ & 0.9351 [0.9211, 0.9491] & 0.9610 [0.9557, 0.9663] & 100 [50--100] & 350 [200--650] \\
+\quad local $V(o_i)$ & 0.9468 [0.9142, 0.9793] & 0.9621 [0.9531, 0.9711] & 50 [50--100] & 50 [50--100] \\
+\quad agent-specific $V(\mathbf{s}\oplus o_i)$ & 0.9413 [0.9113, 0.9713] & 0.9645 [0.9576, 0.9715] & 50 [50--450] & 100 [50--100] \\
+\multicolumn{5}{l}{\textit{Mode 0c, $N = 4$}} \\
+\quad team value & 0.9997 [0.9995, 0.9999] & 0.9987 [0.9971, 1.0000]$^{*}$ & 100 [100--100] & 150 [150--250] \\
+\quad local & 1.0000 [0.9999, 1.0000]$^{*}$ & 0.9999 [0.9999, 0.9999] & 50 [50--100] & 50 [50--100] \\
+\quad agent-specific & 1.0000 [0.9999, 1.0000]$^{*}$ & 1.0000 [1.0000, 1.0000]$^{*}$ & 50 [50--100] & 100 [50--100] \\
+\multicolumn{5}{l}{\textit{Mode 0a, $N = 4$}} \\
+\quad team value & 0.9999 [0.9998, 1.0000]$^{*}$ & 0.7962 [0.7932, 0.7992] & 400 [350--650] & never \\
+\quad local & 1.0000 [0.9999, 1.0000]$^{*}$ & 1.0000 [0.9999, 1.0000]$^{*}$ & 300 [250--1050] & 250 [200--450] \\
+\quad agent-specific & 1.0000 [0.9999, 1.0000]$^{*}$ & 1.0000 [1.0000, 1.0000]$^{*}$ & 400 [200--500] & 250 [150--300] \\
+\multicolumn{5}{l}{\textit{Mode 0c, $N = 10$, $\delta = 1.0$}} \\
+\quad team value & 0.9393 [0.9056, 0.9729] & 0.9629 [0.9515, 0.9743] & 100 [50--100] & 50 [50--100] \\
+\bottomrule
+\end{tabular}
+\end{table}

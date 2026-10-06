@@ -1,0 +1,21 @@
+{
+  "title": "Mode 0 V2X — Reproducibility Package (v2.0.0)",
+  "upload_type": "software",
+  "version": "2.0.0",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Jiang, Dewei"
+    }
+  ],
+  "description": "Code, simulation environment, results and figures for the revised manuscript \"Mode 0: Architecture, Risk Taxonomy, and Standardization Pathway for RCU-Assisted V2X Safety Communication\" (manuscript under review). Release 2.0 regenerates every learning-based result after correcting two implementation defects found during the revision (see the README); releases 1.x are superseded.",
+  "keywords": [
+    "V2X",
+    "vehicle-to-everything",
+    "resource scheduling",
+    "multi-agent reinforcement learning",
+    "MAPPO",
+    "reproducibility"
+  ],
+  "notes": "Manuscript under review."
+}

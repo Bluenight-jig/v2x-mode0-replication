@@ -1,0 +1,57 @@
+[seed] all RNGs seeded with 1
+GPU : NVIDIA GeForce RTX 3060
+VRAM: 12.9 GB
+Device          : cuda:0
+Actors          : 10 per-vehicle, total 212,730 params
+Critic params   : 99,073
+obs_dim=11  action_dim=25  gs_dim=115
+M0 count: 5  M1 count: 5
+Training for 5000 episodes (Config A_mode0c_N10_seed1_gaefix_g05_ent01_as, N=10)...
+
+[NS3Bridge] Connected tcp://localhost:8066
+Ep    0 | M0_PDR 0.522 | M1_PDR 0.587 | H_m0 3.22 H_m1 3.21 | a-0.0404 c0.6271 ent0.0100 VRAM 36MB
+Ep   50 | M0_PDR 0.880 | M1_PDR 0.849 | H_m0 0.30 H_m1 0.70 | a-0.0218 c0.0677 ent0.0099 VRAM 36MB
+Ep  100 | M0_PDR 0.935 | M1_PDR 0.945 | H_m0 0.00 H_m1 0.16 | a-0.0012 c0.0474 ent0.0098 VRAM 36MB
+Ep  150 | M0_PDR 0.960 | M1_PDR 0.905 | H_m0 0.00 H_m1 0.05 | a-0.0002 c0.0251 ent0.0097 VRAM 36MB
+Ep  200 | M0_PDR 0.961 | M1_PDR 0.905 | H_m0 0.00 H_m1 0.09 | a-0.0004 c0.0292 ent0.0096 VRAM 36MB
+Ep  250 | M0_PDR 0.950 | M1_PDR 0.947 | H_m0 0.00 H_m1 0.02 | a-0.0001 c0.0328 ent0.0095 VRAM 36MB
+Ep  300 | M0_PDR 0.946 | M1_PDR 0.966 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0318 ent0.0095 VRAM 36MB
+Ep  350 | M0_PDR 0.938 | M1_PDR 0.967 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0346 ent0.0094 VRAM 36MB
+Ep  400 | M0_PDR 0.940 | M1_PDR 0.959 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0374 ent0.0093 VRAM 36MB
+Ep  450 | M0_PDR 0.957 | M1_PDR 0.965 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0276 ent0.0092 VRAM 36MB
+Ep  500 | M0_PDR 0.949 | M1_PDR 0.959 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0325 ent0.0091 VRAM 36MB
+Ep  550 | M0_PDR 0.949 | M1_PDR 0.964 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0305 ent0.0090 VRAM 36MB
+Ep  600 | M0_PDR 0.937 | M1_PDR 0.962 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0355 ent0.0089 VRAM 36MB
+Ep  650 | M0_PDR 0.952 | M1_PDR 0.962 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0303 ent0.0088 VRAM 36MB
+Ep  700 | M0_PDR 0.949 | M1_PDR 0.964 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0321 ent0.0087 VRAM 36MB
+Ep  750 | M0_PDR 0.959 | M1_PDR 0.963 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0270 ent0.0086 VRAM 36MB
+Ep  800 | M0_PDR 0.927 | M1_PDR 0.960 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0415 ent0.0086 VRAM 36MB
+Ep  850 | M0_PDR 0.954 | M1_PDR 0.977 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0266 ent0.0085 VRAM 36MB
+Ep  900 | M0_PDR 0.945 | M1_PDR 0.962 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0346 ent0.0084 VRAM 36MB
+Ep  950 | M0_PDR 0.956 | M1_PDR 0.962 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0293 ent0.0083 VRAM 36MB
+Ep 1000 | M0_PDR 0.953 | M1_PDR 0.973 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0297 ent0.0082 VRAM 36MB
+Ep 1050 | M0_PDR 0.947 | M1_PDR 0.960 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0319 ent0.0081 VRAM 36MB
+Ep 1100 | M0_PDR 0.932 | M1_PDR 0.945 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0375 ent0.0080 VRAM 36MB
+Ep 1150 | M0_PDR 0.952 | M1_PDR 0.962 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0312 ent0.0079 VRAM 36MB
+Ep 1200 | M0_PDR 0.953 | M1_PDR 0.953 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0255 ent0.0078 VRAM 36MB
+Ep 1250 | M0_PDR 0.944 | M1_PDR 0.972 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0320 ent0.0077 VRAM 36MB
+Ep 1300 | M0_PDR 0.943 | M1_PDR 0.953 | H_m0 0.00 H_m1 0.00 | a-0.0000 c0.0320 ent0.0077 VRAM 36MB
+Traceback (most recent call last):
+  File "/home/jig/v2x_clean/train_d6_A_mode0c_N10_seed1_gaefix_g05_ent01_as.py", line 392, in <module>
+    main()
+  File "/home/jig/v2x_clean/train_d6_A_mode0c_N10_seed1_gaefix_g05_ent01_as.py", line 193, in main
+    stats   = trainer.update_from_tensors(gpu_buf)
+  File "/home/jig/v2x_clean/agents/mappo_critic_ablation.py", line 123, in update_from_tensors
+    return super().update_from_tensors(b)
+  File "/home/jig/v2x_clean/agents/mappo_mode0c.py", line 142, in update_from_tensors
+    actor_losses_per[i] = a_loss.item()
+torch.AcceleratorError: CUDA error: an illegal memory access was encountered
+Search for `cudaErrorIllegalAddress' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+The CUDA driver logged these messages, which may provide useful details:
+Returning 700 (CUDA_ERROR_ILLEGAL_ADDRESS) from cuStreamSynchronize
+
+
+Error: tcpip::Socket::recvAndCheck @ recv: peer shutdown
+Quitting (on error).

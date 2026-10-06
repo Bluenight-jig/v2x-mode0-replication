@@ -1,0 +1,116 @@
+{
+  "label": "A_mode0b_N10_seed2_gaefix_g05_ent01",
+  "kind": "mode_0b_hybrid_actors",
+  "N": 10,
+  "M": 5,
+  "own_window": {
+    "warmup": 0,
+    "episodes": 100,
+    "m0_pdr_mean": 0.9531637328863144,
+    "wirc": 0.7989568686485291,
+    "m1_pdr_mean": 0.9591468691825866,
+    "worst_vehicle_delivery": 0.896387888789177,
+    "per_vehicle_p05": 0.8834175199270249,
+    "share_vehicles_meeting_095": 0.6,
+    "aoi_mean": 1.0509655,
+    "aoi_p95": 1.26,
+    "aoi_peak": 3.5600000000000005,
+    "aoi_worst_vehicle_mean": 1.1187225,
+    "p_aoi_above_1": 0.0459655,
+    "aoi_draws": 20,
+    "mode0b": {
+      "active_m0": 0.9578493237495422,
+      "passive_m0": 0.946135401725769,
+      "active_m1": 0.9845818877220154,
+      "passive_m1": 0.9421901106834412,
+      "passive_m0_within_pool": 0.006250000000000001,
+      "passive_m1_within_pool": 0.013116666666666665,
+      "passive_m1_random_level": 0.3599999999999999,
+      "groups": {
+        "active_m0": [
+          0,
+          1,
+          2
+        ],
+        "passive_m0": [
+          3,
+          4
+        ],
+        "active_m1": [
+          5,
+          6
+        ],
+        "passive_m1": [
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    "reuse": {
+      "co_channel_sep_m": 537.6780549071583,
+      "shuffled_sep_m": 380.3231341563991,
+      "ratio": 1.4137400715835777
+    }
+  },
+  "common_window_40": {
+    "warmup": 40,
+    "episodes": 100,
+    "m0_pdr_mean": 0.9545525646209717,
+    "wirc": 0.7991848611831665,
+    "m1_pdr_mean": 0.9623008960485459,
+    "worst_vehicle_delivery": 0.8921526718139648,
+    "per_vehicle_p05": 0.8765679657459259,
+    "share_vehicles_meeting_095": 0.61,
+    "aoi_mean": 1.05024,
+    "aoi_p95": 1.27,
+    "aoi_peak": 3.3985,
+    "aoi_worst_vehicle_mean": 1.1256875,
+    "p_aoi_above_1": 0.045335625,
+    "aoi_draws": 20,
+    "mode0b": {
+      "active_m0": 0.957843542098999,
+      "passive_m0": 0.949616014957428,
+      "active_m1": 0.9818173050880432,
+      "passive_m1": 0.9492900371551514,
+      "passive_m0_within_pool": 0.0023125000000000003,
+      "passive_m1_within_pool": 0.0030416666666666665,
+      "passive_m1_random_level": 0.3599999999999999,
+      "groups": {
+        "active_m0": [
+          0,
+          1,
+          2
+        ],
+        "passive_m0": [
+          3,
+          4
+        ],
+        "active_m1": [
+          5,
+          6
+        ],
+        "passive_m1": [
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    "reuse": {
+      "co_channel_sep_m": 544.6214652314196,
+      "shuffled_sep_m": 383.6646162201501,
+      "ratio": 1.4195248720015168
+    }
+  },
+  "validation": {
+    "logged_m0": 0.9541622873142362,
+    "logged_wirc": 0.7989439764618872,
+    "delta_m0": -0.0009985544279218495,
+    "delta_wirc": 1.2892186641910719e-05,
+    "status": "OK"
+  },
+  "fraction_of_partial_probabilities": 0.220055,
+  "sec_per_episode": 5.118230888843536,
+  "wall_minutes": 8.530384814739227
+}

@@ -1,7 +1,7 @@
 """
 ns3_bridge.py — Python ZMQ REQ client for the v2x_bridge subprocess.
 """
-import os, time, signal, json, subprocess
+import os, time, signal, json, subprocess, pathlib
 from typing import Optional
 import zmq, numpy as np
 
@@ -10,8 +10,8 @@ class NS3Bridge:
     def __init__(self,
                  n_vehicles: int   = 10,
                  port:       int   = 5556,
-                 binary:     str   = os.path.expanduser(
-                                 "~/v2x_thesis/ns3_bridge/v2x_bridge"),
+                 binary:     str   = str(pathlib.Path(__file__).resolve().parent.parent
+                                         / "ns3_bridge" / "v2x_bridge"),
                  fc_ghz:     float = 5.9,
                  timeout_ms: int   = 8000):
         # port      : change if 5556 is in use

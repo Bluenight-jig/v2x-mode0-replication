@@ -31,7 +31,7 @@ CFG = {
     "eta":        0.3,
 
     # ── Communication bridge ─────────────────────────────────────────
-    "bridge_binary": os.path.expanduser("~/v2x_thesis/ns3_bridge/v2x_bridge"),
+    "bridge_binary": str(pathlib.Path(__file__).resolve().parent / "ns3_bridge" / "v2x_bridge"),
     "ns3_port":      5556,
     "fc_ghz":         5.9,
 
