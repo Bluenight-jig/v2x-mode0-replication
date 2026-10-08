@@ -1,6 +1,9 @@
-Release v2.0 accompanies the revised manuscript "Mode 0: Architecture, Risk Taxonomy, and Standardization Pathway for RCU-Assisted V2X Safety Communication" (manuscript under review).
+Release v2.0.1 corrects documentation and one figure; the code and every result are unchanged from v2.0.
 
-- Regenerates every learning-based result after correcting two implementation defects (incomplete fleet at episode
-  start; advantages computed across vehicles) — see the README. Results of v1.x are superseded.
-- 200 training runs in `RUN_REGISTER.csv`; runs 111–200 (standard MAPPO with per-agent GAE) are the ones reported.
-- `stage4a_v2.py` and `make_figures.py` regenerate every interval, figure and table from this release alone.
+- `RUN_REGISTER.csv` gains a `role` column: 88 reported (every result in Section 7 of the revised manuscript), 11 supplementary,
+  15 diagnostic, 85 superseded, 1 excluded. v2.0's era column wrongly implied that runs 111-200 were the reported set.
+- `README.md` and `REPRODUCE.md`: the run-range sentences now point to the roles.
+- `make_figures.py`: Fig. 4 (`fig7A_separation`) no longer labels the M = 3 point "capacity" (the cap there comes from the
+  learner's placement, not from capacity); "within-pool" is now "within-class"; Table IV (`T_mode0b`) adds the fleet-level
+  rows; captions match the manuscript; PDFs no longer embed a creation date.
+- Version metadata updated to 2.0.1.

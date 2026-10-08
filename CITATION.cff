@@ -9,8 +9,8 @@ type: software
 license: MIT
 repository-code: "https://github.com/Bluenight-jig/v2x-mode0-replication"
 url: "https://doi.org/10.5281/zenodo.20338167"
-version: "2.0.0"
-date-released: "2026-10-07"
+version: "2.0.1"
+date-released: "2026-10-08"
 keywords:
   - V2X
   - vehicle-to-everything

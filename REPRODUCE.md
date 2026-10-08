@@ -25,4 +25,4 @@ run's own logged evaluation. `python3 stage4b_eval.py report` summarises all eva
 
 Each run's runner is listed in `RUN_REGISTER.csv`: `OMP_NUM_THREADS=1 python -u <runner>`. It writes
 `results/_<label>.json` and, for per-vehicle architectures, `checkpoints/<label>_actors.pt`. Build the ns-3 bridge
-from `ns3_bridge/` first. Runs 111–200 are the rebuild that the revised manuscript reports.
+from `ns3_bridge/` first. The 88 runs whose `role` is `reported` are the ones behind every result in the revised manuscript.

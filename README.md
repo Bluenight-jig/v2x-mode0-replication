@@ -1,4 +1,4 @@
-# Mode 0 V2X — Reproducibility Package (v2.0.0)
+# Mode 0 V2X — Reproducibility Package (v2.0.1)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20338167.svg)](https://doi.org/10.5281/zenodo.20338167)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,7 +9,7 @@ Code, simulation environment, results and figures for:
 > Dewei Jiang
 > Preprint, 2026. Manuscript under review.
 
-**v2.0.0 accompanies the revised manuscript.** Releases v1.0, v1.0.1 and v1.1 accompanied the original
+**v2.0.1 accompanies the revised manuscript** (v2.0.0 had the same code and results; v2.0.1 corrects the run register's labels, this README and one figure label). Releases v1.0, v1.0.1 and v1.1 accompanied the original
 submission; they remain tagged for traceability, but **their results are superseded** (see *Corrections*).
 
 ## Corrections since v1.x
@@ -26,9 +26,11 @@ Two implementation defects were found during the revision. Every learning-based 
    GAE, in subclasses that override only the advantage computation. The original files are deliberately unchanged,
    so that every earlier run stays reproducible from the code that produced it.
 
-All 200 training runs are listed in `RUN_REGISTER.csv` with their era: run 1 (excluded, defect 1), runs 2–86
-(original programme, superseded by defect 2), runs 87–110 (impact checks and diagnostics) and **runs 111–200 (the
-rebuild, which the revised manuscript reports)**.
+All 200 training runs are listed in `RUN_REGISTER.csv`, whose `role` column gives each run's place in the revised
+manuscript: **88 reported** (every result in Section 7, all at the final settings and 5,000 episodes); 11 supplementary
+(the same settings, not cited: five 3,000-episode runs of Mode 0c at N = 4, two extra seeds of Mode 0a with the
+team-value critic at N = 4, and four runs of Mode 0a with a safety partition); 15 diagnostic (per-agent GAE at other
+settings, used to choose the final ones); 85 superseded (defect 2); and 1 excluded (defect 1).
 
 ## What is in this release
 

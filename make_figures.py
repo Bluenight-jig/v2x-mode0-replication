@@ -12,7 +12,7 @@ Outputs: figures/fig7A_separation.{pdf,png}   shared actors' separation against 
          figures/captions.md                  draft captions in the C&L terminology
 Style rules (coverage review §8d): 95% intervals on every n >= 3 point; n = 2 as the two seeds; clipped intervals
 marked *; the 0.95 requirement line on safety panels only; WIRC labelled "WIRC (m0_pdr_p05_intra)"; never WIRC
-across densities (7-A plots within-pool); bimodal cells shown split; "generation interval", never "TTI".
+across densities (7-A plots within-class collision); bimodal cells shown split; "generation interval", never "TTI".
 Format: Elsevier double-column width (190 mm), vector PDF with embedded TrueType fonts, >= 7 pt text,
 Okabe-Ito colours plus a distinct marker per scheme so every figure reads in greyscale.
 """
@@ -61,7 +61,8 @@ def req_line(ax, label=True):
 
 def save(fig, name):
     out = pathlib.Path("figures"); out.mkdir(exist_ok=True)
-    for ext in ("pdf", "png"): fig.savefig(out / f"{name}.{ext}", bbox_inches="tight", pad_inches=0.02)
+    for ext in ("pdf", "png"): fig.savefig(out / f"{name}.{ext}", bbox_inches="tight", pad_inches=0.02,
+                    metadata={"CreationDate": None} if ext == "pdf" else None)
     plt.close(fig); print(f"  wrote figures/{name}.pdf and .png")
 
 # ------------------------------------------------------------------------------------------- 7-A
@@ -84,7 +85,7 @@ def fig7A():
         r = row(cell, "M0 wp")
         if r: a.plot([x + 0.32], [r["mean"]], STYLE["Mode 0c"][1], color=STYLE["Mode 0c"][0], ms=4.2, zorder=4)
     a.set_xticks(range(len(pts))); a.set_xticklabels([p[0] for p in pts])
-    a.set_ylabel("Safety within-pool collision rate"); a.set_ylim(-0.04, 1.0); a.set_xlim(-0.6, len(pts) - 0.4)
+    a.set_ylabel("Safety within-class collision rate"); a.set_ylim(-0.04, 1.0); a.set_xlim(-0.6, len(pts) - 0.4)
     for lo, hi, txt in ((0, 3, "m$_0$ = 2"), (4, 5, "3"), (6, 6, "5"), (7, 7, "7"), (8, 8, "10")):
         a.annotate("", xy=(lo - 0.3, -0.24), xytext=(hi + 0.3, -0.24), xycoords=("data", "axes fraction"),
                    arrowprops=dict(arrowstyle="-", lw=0.6, color="#333333"), annotation_clip=False)
@@ -105,7 +106,7 @@ def fig7A():
                 b.errorbar([i], [d["median"]], yerr=[[d["median"] - d["min"]], [d["max"] - d["median"]]], fmt=m0a, color=c0a,
                            mfc=c0a, ms=4.2, elinewidth=0.8, capsize=2, zorder=3); plotted = True
         if never:
-            txt = "capacity" if "M=3" in cell else f"+{never} never" if plotted else "never"
+            txt = f"+{never}\nnever" if plotted else "never"
             b.text(i, 6300, txt, ha="center", va="bottom", fontsize=6.3, color="#333333")
     b.set_yscale("log"); b.set_ylim(40, 14000); b.set_xlim(-0.6, len(pts) - 0.4)
     b.set_xticks(range(len(pts))); b.set_xticklabels([p[0] for p in pts])
@@ -230,11 +231,14 @@ def tables():
             return f"{m:.3f} [{lo:.3f}, {hi:.3f}]" + ("$^{*}$" if clip else "")
         body = [f"Safety, active (3 vehicles) & {iv('active_m0')} \\\\", f"Safety, passive (2, one shared actor) & {iv('passive_m0')} \\\\",
                 f"M1, active (2 vehicles) & {iv('active_m1')} \\\\", f"M1, passive (3, one shared actor) & {iv('passive_m1')} \\\\", "\\midrule",
-                "Passive safety pair, within-pool & " + ", ".join(f"{r['passive_m0_within_pool']:.3f}" for r in recs) + " \\\\",
-                "Passive M1 trio, within-pool (random 0.360) & " + ", ".join(f"{r['passive_m1_within_pool']:.3f}" for r in recs) + " \\\\",
-                "\\midrule", f"All-Mode-0c fleet, safety (agent-specific) & {ci_tex(row('Mode 0c, N=10, agent-specific', 'M0 PDR'), 3)} \\\\",
-                f"All-Mode-0a fleet, safety (agent-specific) & {ci_tex(row('Mode 0a, N=10, agent-specific', 'M0 PDR'), 3)} \\\\"]
-        table("T_mode0b", "Vehicles & Delivery [95\\% CI] or within-pool by seed", body,
+                "Passive safety pair, within-class collision & " + ", ".join(f"{r['passive_m0_within_pool']:.3f}" for r in recs) + " \\\\",
+                "Passive M1 trio, within-class collision (random 0.360) & " + ", ".join(f"{r['passive_m1_within_pool']:.3f}" for r in recs) + " \\\\",
+                "\\midrule", f"Mode 0b fleet, safety & {ci_tex(row('Mode 0b, N=10', 'M0 PDR'))} \\\\",
+                f"Mode 0b fleet, M1 & {ci_tex(row('Mode 0b, N=10', 'M1 PDR'))} \\\\",
+                f"All-Mode-0c fleet, safety (agent-specific) & {ci_tex(row('Mode 0c, N=10, agent-specific', 'M0 PDR'))} \\\\",
+                f"All-Mode-0c fleet, M1 (agent-specific) & {ci_tex(row('Mode 0c, N=10, agent-specific', 'M1 PDR'))} \\\\",
+                f"All-Mode-0a fleet, safety (agent-specific) & {ci_tex(row('Mode 0a, N=10, agent-specific', 'M0 PDR'))} \\\\"]
+        table("T_mode0b", "Vehicles & Delivery [95\\% CI], or within-class collision by seed", body,
               "Mode 0b at $N = 10$ by vehicle type (three seeds; agent-specific critic). $^{*}$ interval clipped at 1.", "tab:mode0b", "ll")
     else:
         MISSING.append("results/stage4b/_A_mode0b_N10_seed{1,2,3}_gaefix_g05_ent01.json (Mode 0b by type)")
@@ -251,15 +255,15 @@ def tables():
           "Safety delivery against the derived requirement (PDR $\\geq 0.95$), judged on the 95\\% interval: \\textit{meets} (interval wholly above), \\textit{short} (wholly below), \\textit{straddles}. Each operating point is judged separately; WIRC is not compared across densities.",
           "tab:requirement", "llllll")
 
-CAPTIONS = """# Draft captions (C&L terminology, v71)
+CAPTIONS = """# Figure captions (as in the revised manuscript)
 
-**Fig. 7-A.** Shared actors' separation of safety vehicles against class-group size m0 (Mode 0a, agent-specific critic; three seeds per point). (a) Within-pool collision rate of the safety vehicles, each seed shown; dashed ticks give each point's random-choice floor, 1 − (1 − 1/M)^(m0 − 1); diamonds show Mode 0c at N = 4 and 10. (b) Coordination time — episodes until safety delivery is sustained at ≥ 0.90 — median and range over the seeds that reached it; "+1 never" marks a further seed that did not reach it within the 5,000-episode budget. At N = 4 with M = 3, four vehicles share three channels, so delivery is capped near 0.76 by capacity: the threshold is never reached although separation is complete. Two safety vehicles always separate; three usually separate, slowly; five or more do not within 5,000 episodes.
+**Fig. 3.** (`fig7B_ladder`) The capability ladder at (a) N = 4 and (b) N = 10, the critical safety load. Filled markers: mean safety delivery; hollow markers: WIRC (m0_pdr_p05_intra); bars: 95% confidence intervals over seeds (n = 5 for SB-SPS and Mode 0c, n = 3 otherwise; * clipped at 1). Mode 0a uses the agent-specific critic, its best. Arm P draws subchannels at random with learned power; Arm S learns subchannels with power fixed at 23 dBm. The dashed line is the 0.95 requirement. Inset: the means nearest the requirement, zoomed — Mode 0c's interval includes 0.95. The panels use different vertical scales and are not compared with each other.
 
-**Fig. 7-B.** The capability ladder at (a) N = 4 and (b) N = 10, the critical safety load. Filled markers: mean safety delivery; hollow markers: WIRC (m0_pdr_p05_intra); bars: 95% confidence intervals over seeds (n = 5 for SB-SPS and Mode 0c, n = 3 otherwise; * clipped at 1). Mode 0a uses the agent-specific critic, its best. Arm P draws channels at random with learned power; Arm S learns channels with power fixed at 23 dBm. The dashed line is the 0.95 requirement. Inset: the means nearest the requirement, zoomed — Mode 0c's interval includes 0.95. The panels use different vertical scales and are not compared with each other.
+**Fig. 4.** (`fig7A_separation`) Shared actors' separation of safety vehicles against class-group size m0 (Mode 0a, agent-specific critic; three seeds per point). (a) Within-class collision rate of the safety vehicles, each seed shown; dashed ticks give each point's random-choice floor, 1 − (1 − 1/M)^(m0 − 1); diamonds show Mode 0c at N = 4 and 10. (b) Coordination time — episodes until safety delivery is sustained at ≥ 0.90 — median and range over the seeds that reached it; "+1 never" marks a further seed that did not reach it within the 5,000-episode budget. At N = 4 with M = 3, four vehicles share three subchannels, and the learner pairs one safety vehicle with an M1 vehicle in every interval rather than letting the two M1 vehicles share; safety delivery stays near 0.76 and never reaches the threshold, although the safety vehicles separate completely (Section 7.4). Two safety vehicles always separate; three usually separate, slowly; five or more do not within 5,000 episodes.
 
-**Fig. 7-C.** The safety-priority partition at three operating points: (a) N = 4, (b) the critical load N = 10 with M = 5, (c) spare spectrum, N = 10 with M = 7. Top: safety delivery (filled: mean; hollow: WIRC (m0_pdr_p05_intra)) with the 0.95 requirement; bottom: M1 delivery. Circles: shared pool (Mode 0c); crosses: a partition reserving the indicated number of subchannels for safety traffic (pool 2 and pool 4 at the critical load; pool 5, sized to the safety demand by the RCU, at M = 7). Only with spare spectrum does a partition sized to the safety demand meet the requirement at both levels; at the critical load every partition loses to the shared pool.
+**Fig. 5.** (`fig7C_partition`) The safety-priority partition at three operating points: (a) N = 4, (b) the critical load N = 10 with M = 5, (c) spare spectrum, N = 10 with M = 7. Top: safety delivery (filled: mean; hollow: WIRC (m0_pdr_p05_intra)) with the 0.95 requirement; bottom: M1 delivery. Circles: shared pool (Mode 0c); crosses: a partition reserving the indicated number of subchannels for safety traffic (pool 2 and pool 4 at the critical load; pool 5, sized to the safety demand by the RCU, at M = 7). Only with spare spectrum does a partition sized to the safety demand meet the requirement at both levels; at the critical load every partition loses to the shared pool.
 
-**Fig. 7-D.** Information age of safety messages at (a) N = 4 and (b) N = 10, Mode 0c against SB-SPS (five seeds each; 95% intervals). Age is counted in generation intervals (right axis: ms), from delivery events drawn with each interval's delivery probability; 1 means refreshed in the current interval. The peak is each episode's longest staleness, averaged over episodes. Information age measures staleness, not latency.
+**Fig. 6.** (`fig7D_aoi`) Information age of safety messages at (a) N = 4 and (b) N = 10, Mode 0c against SB-SPS (five seeds each; 95% intervals). Age is counted in generation intervals (right axis: ms), from delivery events drawn with each interval's delivery probability; 1 means refreshed in the current interval. The peak is each episode's longest staleness, averaged over episodes. Information age measures staleness, not latency.
 """
 
 def main():

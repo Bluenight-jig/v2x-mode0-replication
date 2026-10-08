@@ -1,14 +1,14 @@
 {
-  "title": "Mode 0 V2X — Reproducibility Package (v2.0.0)",
+  "title": "Mode 0 V2X — Reproducibility Package (v2.0.1)",
   "upload_type": "software",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "creators": [
     {
       "name": "Jiang, Dewei"
     }
   ],
-  "description": "Code, simulation environment, results and figures for the revised manuscript \"Mode 0: Architecture, Risk Taxonomy, and Standardization Pathway for RCU-Assisted V2X Safety Communication\" (manuscript under review). Release 2.0 regenerates every learning-based result after correcting two implementation defects found during the revision (see the README); releases 1.x are superseded.",
+  "description": "Code, simulation environment, results and figures for the revised manuscript \"Mode 0: Architecture, Risk Taxonomy, and Standardization Pathway for RCU-Assisted V2X Safety Communication\" (manuscript under review). Release 2.0 regenerates every learning-based result after correcting two implementation defects found during the revision (see the README); releases 1.x are superseded. Release 2.0.1 corrects the run register's role labels, the README and one figure label; code and results are unchanged from 2.0.0.",
   "keywords": [
     "V2X",
     "vehicle-to-everything",
